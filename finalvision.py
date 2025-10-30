@@ -462,3 +462,5 @@ if __name__ == "__main__":
         frame_id='camera_color_optical_frame'
     )
     tracker.run()
+    
+    #test：远程推送
