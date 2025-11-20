@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/src/autonomy/rm_autonomy/include/rm_autonomy/plugins/condition/is_outpost_hp_low_condition.hpp

@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/src/localization/FAST_LIO/msg/Pose6D.msg

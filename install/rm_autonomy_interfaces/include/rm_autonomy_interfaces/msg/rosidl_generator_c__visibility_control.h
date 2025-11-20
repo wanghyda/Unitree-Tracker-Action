@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/build/rm_autonomy_interfaces/rosidl_generator_c/rm_autonomy_interfaces/msg/rosidl_generator_c__visibility_control.h

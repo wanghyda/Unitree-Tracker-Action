@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/build/rm_autonomy_interfaces/rosidl_generator_cpp/rm_autonomy_interfaces/msg/ally_robot_position.hpp

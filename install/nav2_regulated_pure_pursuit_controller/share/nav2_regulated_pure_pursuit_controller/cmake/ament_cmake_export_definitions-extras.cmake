@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/build/nav2_regulated_pure_pursuit_controller/ament_cmake_export_definitions/ament_cmake_export_definitions-extras.cmake

@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/build/nav2_msgs/rosidl_cmake/srv/ClearCostmapExceptRegion_Response.msg

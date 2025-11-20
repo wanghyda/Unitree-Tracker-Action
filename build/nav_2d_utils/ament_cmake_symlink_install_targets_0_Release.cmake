@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/unitree/navigation_ws/build/nav_2d_utils/libconversions.so" "/home/unitree/navigation_ws/build/nav_2d_utils/libpath_ops.so" "/home/unitree/navigation_ws/build/nav_2d_utils/libtf_help.so" "TARGETS" "conversions" "path_ops" "tf_help" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

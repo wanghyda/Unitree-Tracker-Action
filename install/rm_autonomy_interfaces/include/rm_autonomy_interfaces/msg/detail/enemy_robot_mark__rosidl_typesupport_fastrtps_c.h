@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/build/rm_autonomy_interfaces/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__rosidl_typesupport_fastrtps_c.h

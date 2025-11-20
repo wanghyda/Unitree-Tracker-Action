@@ -1,9 +1,0 @@
-/home/unitree/navigation_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/CriticScore.idl
-/home/unitree/navigation_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/LocalPlanEvaluation.idl
-/home/unitree/navigation_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/Trajectory2D.idl
-/home/unitree/navigation_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:msg/TrajectoryScore.idl
-/home/unitree/navigation_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/DebugLocalPlan.idl
-/home/unitree/navigation_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTrajectory.idl
-/home/unitree/navigation_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GenerateTwists.idl
-/home/unitree/navigation_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/GetCriticScore.idl
-/home/unitree/navigation_ws/build/dwb_msgs/rosidl_adapter/dwb_msgs:srv/ScoreTrajectory.idl

@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/build/bringup/ament_cmake_environment_hooks/local_setup.bash

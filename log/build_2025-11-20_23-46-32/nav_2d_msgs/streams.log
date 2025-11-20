@@ -1,4 +1,0 @@
-[0.177s] Invoking command in '/home/unitree/navigation_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_BUILD_TYPE=Release --force-configure -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/nav_2d_msgs
-[0.243s] CMake Error: The source directory "/home/unitree/navigation_ws/build/nav_2d_msgs/--force-configure" does not exist.
-[0.246s] Specify --help for usage, or press the help button on the CMake GUI.
-[0.268s] Invoked command in '/home/unitree/navigation_ws/build/nav_2d_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_BUILD_TYPE=Release --force-configure -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/nav_2d_msgs

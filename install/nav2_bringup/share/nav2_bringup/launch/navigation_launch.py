@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/src/navigation2/nav2_bringup/bringup/launch/navigation_launch.py

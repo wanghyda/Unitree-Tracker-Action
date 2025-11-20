@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/build/rm_autonomy_interfaces/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/all_robot_hp__rosidl_typesupport_introspection_c.h

@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/test_plugin_executor.dir/plugin_example/plugin_executor.cpp.o  -o test_plugin_executor  -Wl,-rpath,/home/unitree/navigation_ws/build/behaviortree_cpp:/opt/ros/foxy/lib ../libbehaviortree_cpp.so /opt/ros/foxy/lib/libament_index_cpp.so /usr/lib/aarch64-linux-gnu/libzmq.so /usr/lib/aarch64-linux-gnu/libsqlite3.so 

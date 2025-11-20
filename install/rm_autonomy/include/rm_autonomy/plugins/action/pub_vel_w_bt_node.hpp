@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/src/autonomy/rm_autonomy/include/rm_autonomy/plugins/action/pub_vel_w_bt_node.hpp

@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/unitree/navigation_ws/build/rm_autonomy_interfaces/rosidl_generator_py/rm_autonomy_interfaces/rm_autonomy_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" "TARGETS" "rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/rm_autonomy_interfaces")

@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/src/autonomy/rm_autonomy/include/rm_autonomy/plugins/condition/enemy_autoaim_detected_condition.hpp

@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/src/autonomy/rm_autonomy/include/rm_autonomy/plugins/action/chasing_stage_confirm_bt_node.hpp

@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces/msg/GameStatus.msg

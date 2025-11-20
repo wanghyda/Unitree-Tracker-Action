@@ -1,6 +1,0 @@
-[0.131s] Invoking command in '/home/unitree/navigation_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/livox_ros_driver2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/livox_ros_driver2
-[0.294s] -- The C compiler identification is GNU 9.4.0
-[0.437s] -- The CXX compiler identification is GNU 9.4.0
-[0.446s] -- Check for working C compiler: /usr/bin/cc
-[0.714s] -- Check for working C compiler: /usr/bin/cc -- works
-[0.717s] -- Detecting C compiler ABI info

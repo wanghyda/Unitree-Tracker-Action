@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/unitree/navigation_ws/build/fast_lio/rosidl_generator_py/fast_lio/libfast_lio__python.so" "TARGETS" "fast_lio__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

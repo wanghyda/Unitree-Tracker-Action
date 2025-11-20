@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/build/dwb_msgs/rosidl_generator_cpp/dwb_msgs/msg/detail/critic_score__type_support.hpp

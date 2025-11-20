@@ -1,4 +1,0 @@
-[0.141s] Invoking command in '/home/unitree/navigation_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/reconstruction/pointcloud_to_laserscan -DCMAKE_BUILD_TYPE=Release --force-configure -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/pointcloud_to_laserscan
-[0.169s] CMake Error: The source directory "/home/unitree/navigation_ws/build/pointcloud_to_laserscan/--force-configure" does not exist.
-[0.169s] Specify --help for usage, or press the help button on the CMake GUI.
-[0.221s] Invoked command in '/home/unitree/navigation_ws/build/pointcloud_to_laserscan' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/reconstruction/pointcloud_to_laserscan -DCMAKE_BUILD_TYPE=Release --force-configure -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/pointcloud_to_laserscan

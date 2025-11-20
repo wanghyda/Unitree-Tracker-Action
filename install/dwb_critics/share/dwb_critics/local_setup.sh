@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/build/dwb_critics/ament_cmake_environment_hooks/local_setup.sh

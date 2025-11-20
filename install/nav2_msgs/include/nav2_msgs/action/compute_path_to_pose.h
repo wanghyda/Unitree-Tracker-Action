@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/build/nav2_msgs/rosidl_generator_c/nav2_msgs/action/compute_path_to_pose.h

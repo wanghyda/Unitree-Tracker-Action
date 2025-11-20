@@ -1,1 +1,0 @@
-/home/unitree/navigation_ws/src/reconstruction/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
