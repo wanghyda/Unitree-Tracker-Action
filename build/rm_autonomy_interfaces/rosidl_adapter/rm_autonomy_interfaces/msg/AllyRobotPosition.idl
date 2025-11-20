@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rm_autonomy_interfaces/msg/AllyRobotPosition.msg
+// generated code does not contain a copyright notice
+
+
+module rm_autonomy_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "## AllyRobotPosition")
+    struct AllyRobotPosition {
+      float ally_1_position_x;
+
+      float ally_1_position_y;
+
+      float ally_2_position_x;
+
+      float ally_2_position_y;
+
+      float ally_3_position_x;
+
+      float ally_3_position_y;
+
+      float ally_4_position_x;
+
+      float ally_4_position_y;
+
+      float ally_5_position_x;
+
+      float ally_5_position_y;
+
+      float ally_7_position_x;
+
+      float ally_7_position_y;
+    };
+  };
+};

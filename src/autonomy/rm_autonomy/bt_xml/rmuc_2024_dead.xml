@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+重要说明：
+1.坐标点：
+    1.1.坐标点格式：x;y;z;qx;qy;qz;qw
+    1.2.坐标点说明：
+    patrol_center：我方中心增益点
+    patrol_right_back：我方右后巡逻点
+    enemy_outpost_1：正对敌方基地打敌方前哨时的位置
+    enemy_outpost_2：背对敌方基地打敌方前哨时的位置
+    healing：我方补给点
+2.参数说明：
+    哨兵满血HP：400
+    哨兵自身满弹量：300
+    前哨站满血HP：1500
+    time_threshold：比赛剩余时间
+    spin_speed：小陀螺转速，超电充放平衡为0.7，中速转动为0.9.
+    scap_state：是否使用超电，1为使用，0为禁用
+3.节点说明：
+    3.1.节点说明：
+    EnemyAutoaimDetectedCondition：自瞄是否检测到目标
+    GetCurrentLocationActionBTNode：获取当前位置
+    IsDeadOnceCondition：已死亡一次（解除无敌状态)条件节点
+    IsEnemyOutpostDeadCondition：敌方前哨站已被摧毁条件节点
+    IsGameStartCondition：判断比赛是否开始条件节点
+    IsOutpostHPLowCondition：前哨站血量低于阈值条件节点
+    IsSelfHPLowCondition：自身血量低于阈值条件节点
+    PubNavigateCommandActionBTNode：发布导航命令节点
+    PubRadarTargetActionBTNode：发布雷达目标节点
+    RemainGameTimeCondition：剩余比赛时间条件节点
+    SendGoalActionBTNode：发送航点目标
+    SubAllRobotHPActionBTNode：订阅所有机器人血量节点
+    SubAllyRobotPositionActionBTNode：订阅友方机器人位置节点
+    SubArenaStatusActionBTNode：订阅竞技场状态节点
+    SubAutoaimCommunicationActionBTNode：订阅自瞄通信节点
+    SubGameStatusActionBTNode：订阅比赛状态节点
+    SubGimbalYawActionBTNode：订阅云台yaw角度节点
+    SubSelfStateActionBTNode：订阅自身状态节点
+    TwoPositionPatrolActionBTNode：两点巡逻节点
+    IsHumanInterventedCondition：人工干预检测节点
+    SubHumanInterventionActionBTNode：订阅人工干预节点
+    UpdateDeadOnceActionBTNode：更新“是否死亡一次（解除无敌状态)”节点
+    SubFireTriggerActionBTNode：订阅发射机构可用状态节点
+    IsGunLockedCondition：判断发射机构锁定状态节点
+    SubChaseControlActionBTNode：订阅追击控制节点
+    PubChasingActionBTNode：发布追击状态节点
+-->
+<root BTCPP_format="4"
+    main_tree_to_execute="BehaviorTree">
+    <BehaviorTree ID="BehaviorTree">
+        <!-- 飞镖-->
+        <Sequence>
+            <Sequence name="sub info">
+                <SubSelfStateActionBTNode topic_name="/self_state"
+                    self_state="{self_state}" />
+                <SubGameStatusActionBTNode topic_name="/game_status"
+                    game_status="{game_status}" />
+                <SubArenaStatusActionBTNode topic_name="/arena_status"
+                    arena_status="{arena_status}" />
+                <SubAllRobotHPActionBTNode topic_name="/all_robot_hp"
+                    all_robot_hp="{all_robot_hp}" />
+                <SubFireTriggerActionBTNode
+                    topic_name="/fire_trigger"
+                    fire_trigger_value="{fire_trigger_value}" />
+                <!-- <SubAllyRobotPositionActionBTNode topic_name="/ally_robot_position"
+                                          ally_robot_position="{ally_robot_position}"/> -->
+                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                <!-- <SubRadarEnemyPositionActionBTNode topic_name="/radar_enemy_position"
+                                          radar_enemy_position="{radar_enemy_position}"/> -->
+                <SubGimbalYawActionBTNode topic_name="/gimbal2_yaw"
+                    gimbal2_yaw="{gimbal2_yaw}" />
+                <SubAutoaimCommunicationActionBTNode topic_name="/autoaim_communication"
+                    current_location="{current_location}"
+                    gimbal2_yaw="{gimbal2_yaw}"
+                    enemy_autoaim_position="{enemy_autoaim_position}"
+                    enemy_autoaim_id="{enemy_autoaim_id}"
+                    autoaim_communication="{autoaim_communication}" />
+                <SubHumanInterventionActionBTNode topic_name="/human_intervention"
+                    dart_value="{dart_value}"
+                    human_intervention_pose="{human_intervention_pose}" />
+                <!-- <SubInvincibleTargetActionBTNode topic_name="/invincible_target"
+                    invincible_target="{invincible_target}" /> -->
+                <!-- <SubChaseControlActionBTNode topic_name="/chase_control"
+                    chase_control="{chase_control}" /> -->
+                <UpdateDeadOnceActionBTNode
+                    self_state="{self_state}"
+                    game_status="{game_status}"
+                    dead_once="{dead_once}" />
+            </Sequence>
+            <IfThenElse>
+                <IsGameStartCondition message="{game_status}" />
+
+                <!--飞镖相关行为：
+                    dart=0:
+                        执行全套哨兵击打逻辑，包括回家补血补弹，巡逻，击打前哨站等
+                    dart=1:
+                        执行除了一切和回家有关行为之外的全套逻辑
+                    dart=2:
+                        两点巡逻我方区域
+                -->
+
+                <Switch2 variable="{dart_value}" case_1="0" case_2="1">
+                    <!-- dart == 0 begin-->
+                    <Sequence>
+                        <TwoPositionPatrolActionBTNode
+                            goal_pose_1="{patrol_left}"
+                            goal_pose_2="{patrol_right}" />
+                        <IfThenElse>
+                            <UnderAttackCondition message="{self_state}" />
+                            <PubNavigateCommandActionBTNode spin_speed="3"
+                                scap_state="1" />
+                            <PubNavigateCommandActionBTNode
+                                spin_speed="0.89"
+                                scap_state="0" />
+                        </IfThenElse>
+                    </Sequence>
+
+
+                    <!-- dart == 0 end-->
+
+                    <!-- dart == 1 begin-->
+                    <Sequence>
+                        <TwoPositionPatrolActionBTNode
+                            goal_pose_1="{patrol_left}"
+                            goal_pose_2="{patrol_right}" />
+                        <IfThenElse>
+                            <UnderAttackCondition message="{self_state}" />
+                            <PubNavigateCommandActionBTNode spin_speed="3"
+                                scap_state="1" />
+                            <PubNavigateCommandActionBTNode
+                                spin_speed="0.89"
+                                scap_state="0" />
+                        </IfThenElse>
+                    </Sequence>
+                    <!-- dart == 1 end-->
+
+                    <!-- dart == 2 begin-->
+                    
+                    <IfThenElse>
+                        <UnderAttackCondition message="{self_state}" />
+                        <PubNavigateCommandActionBTNode spin_speed="2"
+                            scap_state="1" />
+                        <PubNavigateCommandActionBTNode
+                            spin_speed="0.89"
+                            scap_state="0" />
+                    </IfThenElse>
+                    <!-- dart == 2 end-->
+                </Switch2>
+
+                <!-- ===============GAME NOT START begin================-->
+
+                <Sequence>
+                    <PubNavigateCommandActionBTNode spin_speed="-0.45" scap_state="0" />
+                </Sequence>
+
+                <!-- ===============GAME NOT START end================-->
+
+
+            </IfThenElse>
+            <!--===============Pub Rardar Target==============-->
+            <IfThenElse>
+                <EnemyAutoaimDetectedCondition
+                    enemy_autoaim_position="{enemy_autoaim_position}"
+                    game_status="{game_status}"
+                    autoaim_communication="{autoaim_communication}"
+                    all_robot_hp="{all_robot_hp}"
+                    message="{self_state}"
+                    enemy_area_id="{enemy_area_id}" />
+                <PubRadarTargetActionBTNode enemy_autoaim_position="{enemy_autoaim_position}"
+                    enemy_autoaim_id="{enemy_autoaim_id}" />
+            </IfThenElse>
+        </Sequence>
+    </BehaviorTree>
+</root>

@@ -1,0 +1,15 @@
+from rm_autonomy_interfaces.msg._all_robot_hp import AllRobotHP  # noqa: F401
+from rm_autonomy_interfaces.msg._ally_robot_position import AllyRobotPosition  # noqa: F401
+from rm_autonomy_interfaces.msg._arena_status import ArenaStatus  # noqa: F401
+from rm_autonomy_interfaces.msg._autoaim_communication import AutoaimCommunication  # noqa: F401
+from rm_autonomy_interfaces.msg._chase_control import ChaseControl  # noqa: F401
+from rm_autonomy_interfaces.msg._enemy_robot_mark import EnemyRobotMark  # noqa: F401
+from rm_autonomy_interfaces.msg._fire_trigger import FireTrigger  # noqa: F401
+from rm_autonomy_interfaces.msg._game_status import GameStatus  # noqa: F401
+from rm_autonomy_interfaces.msg._human_intervention import HumanIntervention  # noqa: F401
+from rm_autonomy_interfaces.msg._invincible_target import InvincibleTarget  # noqa: F401
+from rm_autonomy_interfaces.msg._navigate_command import NavigateCommand  # noqa: F401
+from rm_autonomy_interfaces.msg._omni_sensing import OmniSensing  # noqa: F401
+from rm_autonomy_interfaces.msg._radar_enemy_position import RadarEnemyPosition  # noqa: F401
+from rm_autonomy_interfaces.msg._radar_target import RadarTarget  # noqa: F401
+from rm_autonomy_interfaces.msg._self_state import SelfState  # noqa: F401

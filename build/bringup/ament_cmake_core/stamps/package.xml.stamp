@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>bringup</name>
+  <version>1.0.12</version>
+  <description>Bringup scripts and configurations for Nav2 stack</description>
+  <maintainer email="12311718@mail.sustech.edu.cn">Guo</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+
+  <depend> pointcloud_to_laserscan </depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

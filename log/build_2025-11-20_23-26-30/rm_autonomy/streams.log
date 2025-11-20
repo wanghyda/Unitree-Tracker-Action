@@ -1,0 +1,222 @@
+[0.051s] Invoking command in '/home/unitree/navigation_ws/build/rm_autonomy': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d:/home/unitree/navigation_ws/install/nav2_map_server:/home/unitree/navigation_ws/install/nav2_lifecycle_manager:/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_voxel_grid:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/rm_autonomy_interfaces:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/navigation_ws/install/behaviortree_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d:/home/unitree/navigation_ws/install/nav2_map_server:/home/unitree/navigation_ws/install/nav2_lifecycle_manager:/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_voxel_grid:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/rm_autonomy_interfaces:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/navigation_ws/install/behaviortree_cpp:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d/lib:/home/unitree/navigation_ws/install/nav2_map_server/lib:/home/unitree/navigation_ws/install/nav2_lifecycle_manager/lib:/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_voxel_grid/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib:/home/unitree/navigation_ws/install/behaviortree_cpp/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PATH=/home/unitree/navigation_ws/install/behaviortree_cpp/bin:${PATH} PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/navigation_ws/src/autonomy/rm_autonomy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/rm_autonomy
+[0.153s] -- The C compiler identification is GNU 9.4.0
+[0.244s] -- The CXX compiler identification is GNU 9.4.0
+[0.251s] -- Check for working C compiler: /usr/bin/cc
+[0.392s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.394s] -- Detecting C compiler ABI info
+[0.541s] -- Detecting C compiler ABI info - done
+[0.556s] -- Detecting C compile features
+[0.556s] -- Detecting C compile features - done
+[0.560s] -- Check for working CXX compiler: /usr/bin/c++
+[0.713s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.715s] -- Detecting CXX compiler ABI info
+[0.872s] -- Detecting CXX compiler ABI info - done
+[0.887s] -- Detecting CXX compile features
+[0.888s] -- Detecting CXX compile features - done
+[0.892s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.950s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.951s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.314s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.364s] -- Found nav2_util: 0.4.7 (/home/unitree/navigation_ws/install/nav2_util/share/nav2_util/cmake)
+[1.421s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.434s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.599s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.648s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.534s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.537s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.538s] -- Looking for pthread.h
+[2.675s] -- Looking for pthread.h - found
+[2.675s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.818s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.818s] -- Looking for pthread_create in pthreads
+[2.946s] -- Looking for pthread_create in pthreads - not found
+[2.946s] -- Looking for pthread_create in pthread
+[3.081s] -- Looking for pthread_create in pthread - found
+[3.082s] -- Found Threads: TRUE  
+[3.743s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.748s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.977s] -- Found nav2_costmap_2d: 0.4.7 (/home/unitree/navigation_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[18.445s] -- Configuring done
+[19.478s] -- Generating done
+[19.499s] -- Build files have been written to: /home/unitree/navigation_ws/build/rm_autonomy
+[19.578s] Invoked command in '/home/unitree/navigation_ws/build/rm_autonomy' returned '0': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d:/home/unitree/navigation_ws/install/nav2_map_server:/home/unitree/navigation_ws/install/nav2_lifecycle_manager:/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_voxel_grid:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/rm_autonomy_interfaces:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/navigation_ws/install/behaviortree_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d:/home/unitree/navigation_ws/install/nav2_map_server:/home/unitree/navigation_ws/install/nav2_lifecycle_manager:/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_voxel_grid:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/rm_autonomy_interfaces:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/navigation_ws/install/behaviortree_cpp:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d/lib:/home/unitree/navigation_ws/install/nav2_map_server/lib:/home/unitree/navigation_ws/install/nav2_lifecycle_manager/lib:/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_voxel_grid/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib:/home/unitree/navigation_ws/install/behaviortree_cpp/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PATH=/home/unitree/navigation_ws/install/behaviortree_cpp/bin:${PATH} PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/navigation_ws/src/autonomy/rm_autonomy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/rm_autonomy
+[19.580s] Invoking command in '/home/unitree/navigation_ws/build/rm_autonomy': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d:/home/unitree/navigation_ws/install/nav2_map_server:/home/unitree/navigation_ws/install/nav2_lifecycle_manager:/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_voxel_grid:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/rm_autonomy_interfaces:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/navigation_ws/install/behaviortree_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d:/home/unitree/navigation_ws/install/nav2_map_server:/home/unitree/navigation_ws/install/nav2_lifecycle_manager:/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_voxel_grid:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/rm_autonomy_interfaces:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/navigation_ws/install/behaviortree_cpp:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d/lib:/home/unitree/navigation_ws/install/nav2_map_server/lib:/home/unitree/navigation_ws/install/nav2_lifecycle_manager/lib:/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_voxel_grid/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib:/home/unitree/navigation_ws/install/behaviortree_cpp/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PATH=/home/unitree/navigation_ws/install/behaviortree_cpp/bin:${PATH} PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/navigation_ws/build/rm_autonomy -- -j8 -l8
+[21.211s] [35m[1mScanning dependencies of target polygon[0m
+[21.211s] [  8%] [32mBuilding CXX object CMakeFiles/polygon.dir/src/polygon.cpp.o[0m
+[23.195s] [ 16%] [32m[1mLinking CXX shared library libpolygon.so[0m
+[31.594s] [ 16%] Built target polygon
+[31.668s] [35m[1mScanning dependencies of target occupancy_grid_wrapper[0m
+[31.767s] [ 25%] [32mBuilding CXX object CMakeFiles/occupancy_grid_wrapper.dir/src/occupancy_grid_wrapper.cpp.o[0m
+[34.588s] [ 33%] [32m[1mLinking CXX shared library liboccupancy_grid_wrapper.so[0m
+[43.290s] [ 33%] Built target occupancy_grid_wrapper
+[43.319s] [35m[1mScanning dependencies of target sentry_autonomy_node[0m
+[43.457s] [ 41%] [32mBuilding CXX object CMakeFiles/sentry_autonomy_node.dir/src/sentry_autonomy_node.cpp.o[0m
+[55.765s] [ 50%] [32m[1mLinking CXX executable sentry_autonomy_node[0m
+[57.035s] [ 50%] Built target sentry_autonomy_node
+[57.062s] [35m[1mScanning dependencies of target get_current_location_action_bt_node[0m
+[57.188s] [ 58%] [32mBuilding CXX object CMakeFiles/get_current_location_action_bt_node.dir/plugins/action/get_current_location_action_bt_node.cpp.o[0m
+[73.291s] [ 66%] [32m[1mLinking CXX shared library libget_current_location_action_bt_node.so[0m
+[75.619s] [ 66%] Built target get_current_location_action_bt_node
+[75.648s] [35m[1mScanning dependencies of target send_goal_action_bt_node[0m
+[75.742s] [ 75%] [32mBuilding CXX object CMakeFiles/send_goal_action_bt_node.dir/plugins/action/send_goal_action_bt_node.cpp.o[0m
+[87.348s] [ 83%] [32m[1mLinking CXX shared library libsend_goal_action_bt_node.so[0m
+[88.709s] [ 83%] Built target send_goal_action_bt_node
+[88.736s] [35m[1mScanning dependencies of target pub_chasing_position_btnode_action[0m
+[88.834s] [ 91%] [32mBuilding CXX object CMakeFiles/pub_chasing_position_btnode_action.dir/plugins/action/pub_chasing_position_btnode_action.cpp.o[0m
+[99.237s] [100%] [32m[1mLinking CXX shared library libpub_chasing_position_btnode_action.so[0m
+[100.414s] [100%] Built target pub_chasing_position_btnode_action
+[100.448s] Invoked command in '/home/unitree/navigation_ws/build/rm_autonomy' returned '0': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d:/home/unitree/navigation_ws/install/nav2_map_server:/home/unitree/navigation_ws/install/nav2_lifecycle_manager:/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_voxel_grid:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/rm_autonomy_interfaces:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/navigation_ws/install/behaviortree_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d:/home/unitree/navigation_ws/install/nav2_map_server:/home/unitree/navigation_ws/install/nav2_lifecycle_manager:/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_voxel_grid:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/rm_autonomy_interfaces:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/navigation_ws/install/behaviortree_cpp:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d/lib:/home/unitree/navigation_ws/install/nav2_map_server/lib:/home/unitree/navigation_ws/install/nav2_lifecycle_manager/lib:/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_voxel_grid/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib:/home/unitree/navigation_ws/install/behaviortree_cpp/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PATH=/home/unitree/navigation_ws/install/behaviortree_cpp/bin:${PATH} PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/navigation_ws/build/rm_autonomy -- -j8 -l8
+[100.539s] Invoking command in '/home/unitree/navigation_ws/build/rm_autonomy': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d:/home/unitree/navigation_ws/install/nav2_map_server:/home/unitree/navigation_ws/install/nav2_lifecycle_manager:/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_voxel_grid:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/rm_autonomy_interfaces:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/navigation_ws/install/behaviortree_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d:/home/unitree/navigation_ws/install/nav2_map_server:/home/unitree/navigation_ws/install/nav2_lifecycle_manager:/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_voxel_grid:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/rm_autonomy_interfaces:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/navigation_ws/install/behaviortree_cpp:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d/lib:/home/unitree/navigation_ws/install/nav2_map_server/lib:/home/unitree/navigation_ws/install/nav2_lifecycle_manager/lib:/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_voxel_grid/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib:/home/unitree/navigation_ws/install/behaviortree_cpp/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PATH=/home/unitree/navigation_ws/install/behaviortree_cpp/bin:${PATH} PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/navigation_ws/build/rm_autonomy
+[100.566s] -- Install configuration: ""
+[100.567s] -- Execute custom install script
+[100.569s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/lib/rm_autonomy/sentry_autonomy_node
+[100.596s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/rmuc_120.xml
+[100.620s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/rmuc_2024.xml
+[100.647s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/rmuc_2024_dead.xml
+[100.673s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/rmuc_2024_defence.xml
+[100.696s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/rmuc_2024_unstable.xml
+[100.724s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/rmuc_2025_blue.xml
+[100.747s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/rmuc_2025_red.xml
+[100.770s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/rmul_2024.xml
+[100.796s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/rmul_2025.xml
+[100.822s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/rmul_2025_test.xml
+[100.846s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/system_test/attack/test_attack.xml
+[100.871s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/system_test/dead/dead_120.xml
+[100.895s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/system_test/defence/test_defence.xml
+[100.919s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/system_test/patrol/120_patrol.xml
+[100.943s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/system_test/patrol/partrol.xml
+[100.970s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/aatest_sub_info.xml
+[100.999s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/atest_pub_navigate_command.xml
+[101.024s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/btest_chase.xml
+[101.054s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/btest_get_height.xml
+[101.080s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/btest_go_up_self.xml
+[101.103s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/btest_locate.xml
+[101.130s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/btest_relocate.xml
+[101.155s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/btest_send_goal.xml
+[101.183s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/btest_send_goal_check.xml
+[101.212s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/btest_spin.xml
+[101.243s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/btest_two_point.xml
+[101.274s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/ctest_gimbal_ctr.xml
+[101.301s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/dtest_defence_behavior.xml
+[101.331s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/etest_heal.xml
+[101.358s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/ftest_human_intervention.xml
+[101.387s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/gtest_two_point_patrol.xml
+[101.416s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/htest_attack_outpost.xml
+[101.440s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/itest_chase.xml
+[101.471s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/jtest_reactive.xml
+[101.496s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/ktest_omnisensing.xml
+[101.520s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/ltest_attack_enemy.xml
+[101.546s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/mtest_under_attack.xml
+[101.571s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/ntest_self_ammo_low.xml
+[101.598s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/otest_invincible_enemy.xml
+[101.623s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/ptest_chase_communication.xml
+[101.649s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/bt_xml/unit_test/test.xml
+[101.679s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/launch/tb3_demo_behavior_cpp.launch.py
+[101.706s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/behavior_tree_engine.hpp
+[101.733s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/bt_action_node.hpp
+[101.760s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/bt_action_server.hpp
+[101.784s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/bt_action_server_impl.hpp
+[101.810s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/bt_cancel_action_node.hpp
+[101.834s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/bt_conversions.hpp
+[101.865s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/bt_service_node.hpp
+[101.889s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/bt_topic_pub_node.hpp
+[101.914s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/bt_topic_sub_node.hpp
+[101.940s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/bt_utils.hpp
+[101.968s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/occupancy_grid_wrapper.hpp
+[101.992s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins.hpp
+[102.013s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/adjust_gimbal_yaw_action_bt_node.hpp
+[102.036s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/chase_action_bt_node.hpp
+[102.060s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/chasing_stage_confirm_bt_node.hpp
+[102.083s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/check_goal_height_action_bt_node.hpp
+[102.105s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/escape_stage_confirm_bt_node.hpp
+[102.132s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/get_current_height_action_bt_node.hpp
+[102.151s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/get_current_location_action_bt_node.hpp
+[102.176s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/get_safe_direction_bt_node.hpp
+[102.199s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/goal_reached_action.hpp
+[102.224s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/goal_reached_action_asnode.hpp
+[102.245s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/localization_confirm_bt_node.hpp
+[102.269s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/pub_chasing_action_bt_node.hpp
+[102.291s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/pub_chasing_position_btnode_action.hpp
+[102.313s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/pub_escape_action_bt_node.hpp
+[102.340s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/pub_gimbal_pitch_action_bt_node.hpp
+[102.363s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/pub_navigate_command_action_bt_node.hpp
+[102.391s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/pub_radar_target_action_bt_node.hpp
+[102.415s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/pub_relocate_pose_action_bt_node.hpp
+[102.438s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/pub_vel_bt_node.hpp
+[102.464s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/pub_vel_w_bt_node.hpp
+[102.485s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/random_send_goal_action_bt_node.hpp
+[102.511s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/relocalize_action_bt_node.hpp
+[102.534s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/send_goal_action_bt_node.hpp
+[102.556s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/situation_judgement_action_bt_node.hpp
+[102.582s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_all_robot_hp_action_bt_node.hpp
+[102.604s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_ally_robot_position_action_bt_node.hpp
+[102.629s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_arena_status_action_bt_node.hpp
+[102.661s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_autoaim_communication_action_bt_node.hpp
+[102.686s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_chase_control_action_bt_node.hpp
+[102.711s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_fire_trigger_action_bt_node.hpp
+[102.740s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_game_status_action_bt_node.hpp
+[102.768s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_gimbal_yaw_action_bt_node.hpp
+[102.801s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_human_intervention_action_bt_node.hpp
+[102.824s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_invincible_target_action_bt_node.hpp
+[102.850s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_radar_enemy_position_action_bt_node.hpp
+[102.874s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_relocation_pose_action_bt_node.hpp
+[102.902s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_scan_distance_action_bt_node.hpp
+[102.927s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/sub_self_state_action_bt_node.hpp
+[102.952s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/two_position_patrol_action_bt_node.hpp
+[102.978s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/update_armor_dead_history_action_bt_node.hpp
+[103.005s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/action/update_dead_once_action_bt_node.hpp
+[103.028s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/enemy_autoaim_detected_condition.hpp
+[103.051s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_aggressive_condition.hpp
+[103.081s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_base_attacked_condition.hpp
+[103.107s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_dead_once_condition.hpp
+[103.132s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_enemy_invincible_condition.hpp
+[103.159s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_enemy_outpost_dead_condition.hpp
+[103.185s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_game_start_condition.hpp
+[103.216s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_gun_locked_condition.hpp
+[103.240s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_human_intervented_condition.hpp
+[103.266s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_in_defence_area_condition.hpp
+[103.288s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_outpost_hp_low_condition.hpp
+[103.312s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_rmuc_healing_available_condition.hpp
+[103.336s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_rmul_healing_available_condition.hpp
+[103.362s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_self_ammo_low_condition.hpp
+[103.385s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_self_energy_high_condition.hpp
+[103.416s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_self_hp_high_condition.hpp
+[103.444s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/is_self_hp_low_condition.hpp
+[103.473s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/remain_game_time_condition.hpp
+[103.496s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/condition/under_attack_condition.hpp
+[103.521s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/control/pipeline_sequence.hpp
+[103.550s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/plugins/control/round_robin_node.hpp
+[103.578s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/polygon.hpp
+[103.601s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/rm_bt_utils.hpp
+[103.626s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/ros_topic_logger.hpp
+[103.649s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/sentry_autonomy_node.hpp
+[103.674s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/utils/loop_rate.hpp
+[103.697s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/include/rm_autonomy/utils/test_action_server.hpp
+[103.726s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/environment/library_path.sh
+[103.749s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/environment/library_path.dsv
+[103.778s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/lib/libpolygon.so
+[103.806s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/lib/liboccupancy_grid_wrapper.so
+[103.833s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/lib/libget_current_location_action_bt_node.so
+[103.859s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/lib/libsend_goal_action_bt_node.so
+[103.882s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/lib/libpub_chasing_position_btnode_action.so
+[103.908s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy/lib/rm_autonomy/sentry_autonomy_node
+[103.908s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/ament_index/resource_index/package_run_dependencies/rm_autonomy
+[103.936s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/ament_index/resource_index/parent_prefix_path/rm_autonomy
+[103.961s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/environment/ament_prefix_path.sh
+[103.984s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/environment/ament_prefix_path.dsv
+[104.005s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/environment/path.sh
+[104.035s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/environment/path.dsv
+[104.064s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/local_setup.bash
+[104.088s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/local_setup.sh
+[104.112s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/local_setup.zsh
+[104.139s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/local_setup.dsv
+[104.166s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/package.dsv
+[104.194s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/ament_index/resource_index/packages/rm_autonomy
+[104.221s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/cmake/ament_cmake_export_dependencies-extras.cmake
+[104.249s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/cmake/ament_cmake_export_include_directories-extras.cmake
+[104.275s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/cmake/ament_cmake_export_libraries-extras.cmake
+[104.297s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/cmake/rm_autonomyConfig.cmake
+[104.321s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/cmake/rm_autonomyConfig-version.cmake
+[104.346s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy/share/rm_autonomy/package.xml
+[104.376s] Invoked command in '/home/unitree/navigation_ws/build/rm_autonomy' returned '0': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d:/home/unitree/navigation_ws/install/nav2_map_server:/home/unitree/navigation_ws/install/nav2_lifecycle_manager:/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_voxel_grid:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/rm_autonomy_interfaces:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/navigation_ws/install/behaviortree_cpp:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d:/home/unitree/navigation_ws/install/nav2_map_server:/home/unitree/navigation_ws/install/nav2_lifecycle_manager:/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_voxel_grid:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/rm_autonomy_interfaces:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/navigation_ws/install/behaviortree_cpp:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_costmap_2d/lib:/home/unitree/navigation_ws/install/nav2_map_server/lib:/home/unitree/navigation_ws/install/nav2_lifecycle_manager/lib:/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_voxel_grid/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib:/home/unitree/navigation_ws/install/behaviortree_cpp/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PATH=/home/unitree/navigation_ws/install/behaviortree_cpp/bin:${PATH} PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/navigation_ws/build/rm_autonomy

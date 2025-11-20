@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="BehaviorTree">
+  <BehaviorTree ID="BehaviorTree">
+    <Sequence>
+      <Sequence>
+        <SubSelfStateActionBTNode topic_name="/self_state"
+                                  self_state="{self_state}"/>
+        <SubGameStatusActionBTNode topic_name="/game_status"
+                                  game_status="{game_status}"/>
+        <SubArenaStatusActionBTNode topic_name="/arena_status"
+                                    arena_status="{arena_status}"/>
+        <SubAllRobotHPActionBTNode topic_name="/all_robot_hp"
+                                  all_robot_hp="{all_robot_hp}"/>
+        <!-- <SubAllyRobotPositionActionBTNode topic_name="/ally_robot_position"
+                                          ally_robot_position="{ally_robot_position}"/> -->
+        <GetCurrentLocationActionBTNode current_location="{current_location}"/>
+        <!-- <SubRadarEnemyPositionActionBTNode topic_name="/radar_enemy_position"
+                                          radar_enemy_position="{radar_enemy_position}"/>
+        <SubGimbalYawActionBTNode topic_name="/gimbal2_yaw"
+                                  gimbal2_yaw="{gimbal2_yaw}"/>
+        <SubAutoaimCommunicationActionBTNode topic_name="/autoaim_communication"
+                                            current_location="{current_location}"
+                                            gimbal2_yaw="{gimbal2_yaw}"
+                                            enemy_autoaim_position="{enemy_autoaim_position}"
+                                            enemy_autoaim_id="{enemy_autoaim_id}"/> -->
+      </Sequence>
+        <IfThenElse>
+          <IsGameStartCondition message="{game_status}"/>
+          <IfThenElse>
+            <IsOutpostHPLowCondition all_robot_hp="{all_robot_hp}"
+                                      hp_threshold="750"
+                                      self_state="{self_state}"/>
+            <Sequence>
+              <TwoPositionPatrolActionBTNode goal_pose_1="6.47;7.83;0;0;0;0;1"
+                                              goal_pose_2="6.02;5.82;0;0;0;0;1"/>
+              <PubNavigateCommandActionBTNode spin_speed="-1"
+                                              scap_state="0"/>
+            </Sequence>
+            <Sequence>
+              <SendGoalActionBTNode goal_pose="11.12;14.12;0; 0;0;0;1"/>
+              <PubNavigateCommandActionBTNode spin_speed="-1"
+                                              scap_state="0"/>
+            </Sequence>
+          </IfThenElse>
+          <Sequence>
+            <SendGoalActionBTNode goal_pose="4.44;5.37;0; 0;0;0;1"/>
+            <PubNavigateCommandActionBTNode spin_speed="1"
+                                            scap_state="0"/>
+          </Sequence>
+        </IfThenElse>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="GetCurrentLocationActionBTNode"
+            editable="true">
+      <input_port name="current_location"/>
+    </Action>
+    <Action ID="IsSelfHPLowCondition"
+            editable="true">
+      <input_port name="message"/>
+      <input_port name="hp_threshold"/>
+    </Action>
+    <Action ID="PubNavigateCommandActionBTNode"
+            editable="true">
+      <input_port name="spin_speed"/>
+      <input_port name="scap_state"/>
+    </Action>
+    <Action ID="SubAllRobotHPActionBTNode"
+            editable="true">
+      <input_port name="topic_name"/>
+      <input_port name="all_robot_hp"/>
+    </Action>
+    <Action ID="SubAllyRobotPositionActionBTNode"
+            editable="true">
+      <input_port name="topic_name"/>
+      <input_port name="ally_robot_position"/>
+    </Action>
+    <Action ID="SubArenaStatusActionBTNode"
+            editable="true">
+      <input_port name="topic_name"/>
+      <input_port name="arena_status"/>
+    </Action>
+    <Action ID="SubGameStatusActionBTNode"
+            editable="true">
+      <input_port name="topic_name"/>
+      <input_port name="game_status"/>
+    </Action>
+    <Action ID="SubRadarEnemyPositionActionBTNode"
+            editable="true">
+      <input_port name="topic_name"/>
+      <input_port name="radar_enemy_position"/>
+    </Action>
+    <Action ID="SubSelfStateActionBTNode"
+            editable="true">
+      <input_port name="topic_name"/>
+      <input_port name="self_state"/>
+    </Action>
+    <Action ID="TwoPositionPatrolActionBTNode"
+            editable="true">
+      <input_port name="goal_pose_1"/>
+      <input_port name="goal_pose_2"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>

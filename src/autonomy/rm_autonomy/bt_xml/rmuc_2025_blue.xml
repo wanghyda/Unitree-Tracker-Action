@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="BehaviorTree">
+  <BehaviorTree ID="BehaviorTree">
+    <ReactiveSequence>
+        <Sequence>
+            <SubSelfStateActionBTNode topic_name="/self_state"
+                                        self_state="{self_state}" decision_set="{decision_set}" />
+            <SubGameStatusActionBTNode topic_name="/game_status"
+                                        game_status="{game_status}"/>
+            <SubArenaStatusActionBTNode topic_name="/arena_status"
+                                        arena_status="{arena_status}"/>
+            <SubAllRobotHPActionBTNode topic_name="/all_robot_hp" all_robot_hp="{all_robot_hp}"/>
+            <SubGimbalYawActionBTNode topic_name="/gimbal1_yaw"
+                gimbal1_yaw="{gimbal1_yaw}" />
+            <SubAllyRobotPositionActionBTNode topic_name="/ally_robot_position"
+                                            ally_robot_position="{ally_robot_position}"/>
+            <SituationJudgementActionBTNode self_state="{self_state}"
+                                            game_status="{game_status}"
+                                            all_robot_hp="{all_robot_hp}"
+                                            ally_robot_position="{ally_robot_position}"
+                                            hero_y="{hero_y}"
+                                            blue_outpost_hp="{blue_outpost_hp}"
+                                            blue_base_hp="{blue_base_hp}"
+                                            red_outpost_hp="{red_outpost_hp}"
+                                            red_base_hp="{red_base_hp}"
+                                            remain_time="{remain_time}"
+                                            energy_left="{energy_left}"
+                                            self_hp="{self_hp}"
+                                            />
+            <IsGameStartCondition message="{game_status}"/>
+            <GetCurrentLocationActionBTNode current_location="{current_location}" />
+            <SubHumanInterventionActionBTNode topic_name="/human_intervention"
+                    dart_value="{dart_value}"
+                    current_location="{current_location}"
+                    human_intervention_pose="{human_intervention_pose}" />
+
+            <GetCurrentLocationActionBTNode current_location="{current_location}" />
+            <GetCurrentHeightAction current_location="{current_location}"
+                        slide_area_1="{red_slide}"
+                        slide_area_2="{blue_slide}"
+                        slide_area_3="{blue_castle_area}"
+                        slide_area_4="{blue_castle_area}"
+                        slide="{slide}"/>  
+            <GetCurrentHeightAction current_location="{current_location}"
+                        slide_area_1="{red_outpost_area}"
+                        slide_area_2="{red_outpost_area}"
+                        slide_area_3="{red_outpost_area}"
+                        slide_area_4="{red_outpost_area}"
+                        slide="{outpost}"/>  
+            <Fallback >
+                <Precondition if="slide==0" else="FAILURE">
+                    <PubNavigateCommandActionBTNode
+                    spin_speed="0.7"
+                    scap_state="0" 
+                    align_chassis_big_yaw="0"/>
+                </Precondition>
+                <PubNavigateCommandActionBTNode
+                    spin_speed="0.0"
+                    scap_state="0" 
+                    align_chassis_big_yaw="0"/>
+            </Fallback> 
+  
+
+            <PubGimbalPitchActionBTNode message="0" _successIf ="outpost == 1 && blue_outpost_hp >0"/>
+            <PubGimbalPitchActionBTNode message="1" _successIf ="outpost == 0 || blue_outpost_hp ==0"/>
+                       
+        </Sequence>
+        <ReactiveFallback>
+            <!-- 2.任何时候(包括没血没弹),在受到云台手消息的时候都移动到对应位置 -->
+                <SubTree ID="send_goal" goal_pose="{human_intervention_pose}" _failureIf ="dart_value!=65"/>
+                <SubTree ID="send_goal" goal_pose="{human_intervention_pose}" _failureIf ="dart_value!=66"/>
+
+                
+
+            <!-- 3.基地血小于2000时，在家门口两点巡航 -->
+                <Fallback _failureIf ="blue_base_hp>=3000">
+                    <Sequence>
+                        <SubTree ID="send_goal" goal_pose="{blue_base_left}"/>
+                        <SubTree ID="send_goal" goal_pose="{blue_base_right}"/>
+                    </Sequence>
+                </Fallback>   
+                <!-- 进入主要决策部分,200血及没弹回家 -->
+                <Fallback>
+                    <ReactiveSequence>
+                        <IsSelfHPHighCondition message="{self_state}" hp_threshold="200"/>
+                        <IsSelfAmmoLowCondition self_state_msg="{self_state}" threshold="20"/>
+                        <ReactiveFallback>  
+                            <Fallback _failureIf="decision_set != 2">
+                                <SubTree ID="send_goal" goal_pose="{blue_defend_1}"/>
+                                <SubTree ID="send_goal" goal_pose="{blue_defend_2}"/>
+                            </Fallback>
+                        
+                            <ReactiveFallback  _failureIf="decision_set == 2"> 
+                                <!-- 3.基地血小于3000,或虚弱时,进入防御模式 -->
+                                <!-- <Fallback _failureIf="blue_base_hp > 3000 && 15 < energy_left">
+                                        <Sequence _failureIf="decision_set != 0">
+                                            <SubTree ID="send_goal" goal_pose="{blue_defend_1}" />
+                                            <Delay delay_msec="4000">
+                                                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                                            </Delay>
+                                            <SubTree ID="send_goal" goal_pose="{blue_defend_2}"/>
+                                        </Sequence>
+                                </Fallback> -->
+
+
+
+                                <!-- 4.打前哨 -->
+                                 <Sequence _failureIf="0 == red_outpost_hp">
+                                    <SubTree ID="send_goal" goal_pose="{pre_red_outpost}" _successIf="outpost == 1"/>
+                                    <SubTree ID="send_goal" goal_pose="{red_outpost}" />
+                                 </Sequence>
+                                <Sequence>
+                                    <SubTree ID="send_goal" goal_pose="{blue_patrol_1}" />
+                                    <Delay delay_msec="4000">
+                                        <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                                    </Delay>
+                                    <SubTree ID="send_goal" goal_pose="{red_outpost}"/>
+                                    <Delay delay_msec="4000">
+                                        <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                                    </Delay>
+                                </Sequence>
+
+
+                            </ReactiveFallback>
+                        </ReactiveFallback>
+                    </ReactiveSequence>
+                            
+                    <Sequence>
+                        <KeepRunningUntilFailure>
+                            <ReactiveSequence>
+                                <SubSelfStateActionBTNode topic_name="/self_state"
+                                            self_state="{self_state}"/>
+                                <Fallback>
+                                    <Inverter>
+                                        <IsSelfAmmoLowCondition self_state_msg="{self_state}" threshold="100"/>
+                                    </Inverter>                
+                                    <IsSelfHPLowCondition message="{self_state}" hp_threshold="380"/>
+                                </Fallback>
+                                <SubTree ID="send_goal" goal_pose="{blue_home}"/>
+                            </ReactiveSequence>
+                        </KeepRunningUntilFailure>
+                    </Sequence>
+                </Fallback>                   
+        </ReactiveFallback>
+    </ReactiveSequence>
+  </BehaviorTree>
+
+
+
+<BehaviorTree ID="chase">
+        <Sequence>
+            <Sequence>
+                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                <SubGimbalYawActionBTNode topic_name="/gimbal1_yaw"
+                gimbal1_yaw="{gimbal1_yaw}" />
+                
+            </Sequence>
+            <ReactiveSequence>
+                    <SubAutoaimCommunicationActionBTNode topic_name="/autoaim_communication"
+                    current_location="{current_location}"
+                    gimbal1_yaw="{gimbal1_yaw}"
+                    enemy_autoaim_position="{enemy_autoaim_position}"
+                    enemy_autoaim_id="{enemy_autoaim_id}" />
+                    <PubChasingPositionAction enemy_autoaim_position="{enemy_autoaim_position}"
+                                                chasing_stage="{chasing_stage}"
+                                                chasing_goal="{chasing_goal}"/>
+                    <CheckGoalHeightActionBTNode chasing_area="{chasing_area}"
+                                                current_location="{current_location}"
+                                                current_position="{current_position}"
+                                                goal_pose="{chasing_goal}"
+                                                height_mode="{height_mode}"/>
+                    <Precondition if="height_mode==0" else="FAILURE">
+                        <SendGoalActionBTNode goal_pose="{chasing_goal}" />
+                    </Precondition>
+                    <!-- <Precondition if="height_mode==2" else="FAILURE">
+                        <SendGoalActionBTNode goal_pose="{current_position}" />
+                    </Precondition> -->
+                    <ChasingStageConfirmAs chasing_stage="{chasing_stage}"/>
+            </ReactiveSequence>
+        </Sequence>
+    </BehaviorTree>
+
+
+    <BehaviorTree ID="send_goal">
+        <ReactiveSequence>
+            <Sequence>
+                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                <GetSafeDirectionBTNode topic_name="/global_costmap/costmap" current_location="{current_location}"
+                                         safe_direction="{safe_direction}"/>
+            </Sequence>
+            <Inverter>
+                <KeepRunningUntilFailure>
+                    <Inverter>
+                        <Fallback>
+                            <ReactiveSequence>
+                                <SendGoalActionBTNode goal_pose="{goal_pose}" />
+                                <GoalReachedActionAs goal_pose="{goal_pose}"
+                                    current_location="{current_location}"/>
+                            </ReactiveSequence>
+                            <Inverter>
+                                <Sequence>
+                                    <PubVelBTNode safe_direction="{safe_direction}"/>
+                                    <Delay delay_msec="500">
+                                        <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                                    </Delay>
+                                </Sequence>
+                            </Inverter>
+                        </Fallback>
+                    </Inverter>
+                </KeepRunningUntilFailure>
+            </Inverter>
+        </ReactiveSequence>
+    </BehaviorTree>
+
+
+    
+
+
+</root>

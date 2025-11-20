@@ -1,0 +1,4 @@
+Invoking command in '/home/unitree/navigation_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/nav_2d_msgs -- -j8 -l8
+Invoked command in '/home/unitree/navigation_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/nav_2d_msgs -- -j8 -l8
+Invoking command in '/home/unitree/navigation_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/nav_2d_msgs
+Invoked command in '/home/unitree/navigation_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/nav_2d_msgs

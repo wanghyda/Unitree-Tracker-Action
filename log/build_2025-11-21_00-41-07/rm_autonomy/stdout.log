@@ -1,0 +1,26 @@
+-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found nav2_util: 0.4.7 (/home/unitree/navigation_ws/install/nav2_util/share/nav2_util/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found nav2_costmap_2d: 0.4.7 (/home/unitree/navigation_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/unitree/navigation_ws/build/rm_autonomy
+[  8%] [32m[1mLinking CXX shared library libpolygon.so[0m
+[ 16%] Built target polygon
+[ 25%] [32m[1mLinking CXX shared library liboccupancy_grid_wrapper.so[0m
+[ 33%] Built target occupancy_grid_wrapper
+[ 41%] [32m[1mLinking CXX shared library libget_current_location_action_bt_node.so[0m
+[ 50%] [32m[1mLinking CXX executable sentry_autonomy_node[0m
+[ 58%] Built target get_current_location_action_bt_node
+[ 66%] [32m[1mLinking CXX shared library libsend_goal_action_bt_node.so[0m
+[ 75%] Built target sentry_autonomy_node
+[ 83%] Built target send_goal_action_bt_node
+[35m[1mScanning dependencies of target pub_chasing_position_btnode_action[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/pub_chasing_position_btnode_action.dir/plugins/action/pub_chasing_position_btnode_action.cpp.o[0m

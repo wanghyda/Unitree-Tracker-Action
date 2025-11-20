@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="BehaviorTree">
+  <BehaviorTree ID="BehaviorTree">
+    <Sequence>
+      <PubGimbalPitchActionBTNode message="1" />
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Condition ID="EnemyAutoaimDetectedCondition" editable="true">
+      <input_port name="enemy_autoaim_position" default="{enemy_autoaim_position}"/>
+    </Condition>
+    <Action ID="GetCurrentLocationActionBTNode" editable="true">
+      <output_port name="current_location" default="{current_location}"/>
+    </Action>
+    <Condition ID="IsAggressiveCondition" editable="true">
+      <input_port name="message" default="{human_intervention}"/>
+    </Condition>
+    <Condition ID="IsBaseAttackedCondition" editable="true">
+      <input_port name="message" default="{arena_status}"/>
+    </Condition>
+    <Condition ID="IsGameStartCondition" editable="true">
+      <input_port name="message" default="{game_status}"/>
+    </Condition>
+    <Condition ID="IsOutpostHPLowCondition" editable="true">
+      <input_port name="message" default="{all_robot_hp}"/>
+    </Condition>
+    <Condition ID="IsSelfHPLowCondition" editable="true">
+      <input_port name="message" default="{self_state}"/>
+      <input_port name="hp_threshold" default="200"/>
+    </Condition>
+    <Action ID="PubNavigateCommandActionBTNode" editable="true">
+      <input_port name="navigate_command" default="0;0"/>
+    </Action>
+    <Action ID="PubRadarTargetActionBTNode" editable="true">
+      <input_port name="enemy_autoaim_position" default="{enemy_autoaim_position}"/>
+      <input_port name="enemy_autoaim_id" default="{enemy_autoaim_id}"/>
+    </Action>
+    <Action ID="RandomSendGoalActionBTNode" editable="true">
+      <input_port name="goal_pose" default="0;0;0; 0;0;0;1"/>
+      <input_port name="radius" default="1.5"/>
+    </Action>
+    <Condition ID="RemainGameTimeCondition" editable="true">
+      <input_port name="message"/>
+      <input_port name="time_threshold" default="0"/>
+    </Condition>
+    <Action ID="SendGoalActionBTNode" editable="true">
+      <input_port name="goal_pose" default="0;0;0; 0;0;0;1"/>
+    </Action>
+    <Action ID="SubAllRobotHPActionBTNode" editable="true">
+      <input_port name="topic_name" default="/all_robot_hp"/>
+      <output_port name="all_robot_hp" default="{all_robot_hp}"/>
+    </Action>
+    <Action ID="SubAllyRobotPositionActionBTNode" editable="true">
+      <input_port name="topic_name" default="/ally_robot_position"/>
+      <output_port name="ally_robot_position" default="{ally_robot_position}"/>
+    </Action>
+    <Action ID="SubArenaStatusActionBTNode" editable="true">
+      <input_port name="topic_name" default="/arena_status"/>
+      <output_port name="arena_status" default="{arena_status}"/>
+    </Action>
+    <Action ID="SubGameStatusActionBTNode" editable="true">
+      <input_port name="topic_name" default="/game_status"/>
+      <output_port name="game_status" default="{game_status}"/>
+    </Action>
+    <Action ID="SubGimbalYawActionBTNode" editable="true">
+      <input_port name="topic_name" default="/gimbal_yaw"/>
+      <output_port name="gimbal_yaw" default="{gimbal_yaw}"/>
+    </Action>
+    <Action ID="SubHumanInterventionActionBTNode" editable="true">
+      <input_port name="topic_name" default="/human_intervention"/>
+      <output_port name="human_intervention" default="{human_intervention}"/>
+    </Action>
+    <Action ID="SubRadarEnemyPositionActionBTNode" editable="true">
+      <input_port name="topic_name" default="/radar_enemy_position"/>
+      <output_port name="radar_enemy_position" default="{radar_enemy_position}"/>
+    </Action>
+    <Action ID="SubSelfStateActionBTNode" editable="true">
+      <input_port name="topic_name" default="/self_state"/>
+      <output_port name="self_state" default="{self_state}"/>
+    </Action>
+    <Action ID="TwoPositionPatrolActionBTNode" editable="true">
+      <input_port name="goal_pose_1" default="0;0;0; 0;0;0;1"/>
+      <input_port name="goal_pose_2" default="0;0;0; 0;0;0;1"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>

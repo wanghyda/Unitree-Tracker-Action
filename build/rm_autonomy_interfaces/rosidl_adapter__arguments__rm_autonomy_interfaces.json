@@ -1,0 +1,20 @@
+{
+  "package_name": "rm_autonomy_interfaces",
+  "non_idl_tuples": [
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/AllRobotHP.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/AllyRobotPosition.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/ArenaStatus.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/AutoaimCommunication.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/GameStatus.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/EnemyRobotMark.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/HumanIntervention.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/OmniSensing.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/RadarEnemyPosition.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/RadarTarget.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/SelfState.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/NavigateCommand.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/FireTrigger.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/InvincibleTarget.msg",
+    "/home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces:msg/ChaseControl.msg"
+  ]
+}

@@ -1,0 +1,6 @@
+[0.118s] Invoking command in '/home/unitree/navigation_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/reconstruction/pointcloud_to_laserscan -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/pointcloud_to_laserscan
+[0.310s] -- The C compiler identification is GNU 9.4.0
+[0.464s] -- The CXX compiler identification is GNU 9.4.0
+[0.484s] -- Check for working C compiler: /usr/bin/cc
+[0.703s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.705s] -- Detecting C compiler ABI info

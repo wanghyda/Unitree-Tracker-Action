@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="BehaviorTree">
+  <BehaviorTree ID="BehaviorTree">
+    <Sequence>
+      <SubSelfStateActionBTNode topic_name="/self_state"
+                                self_state="{self_state}"/>
+      <SubGameStatusActionBTNode topic_name="/game_status"
+                                 game_status="{game_status}"/>
+      <SubArenaStatusActionBTNode topic_name="/arena_status"
+                                  arena_status="{arena_status}"/>
+
+        <!-- <SubTree ID="location"/> -->
+
+      <!-- <Delay delay_msec="2000">                 -->
+                    <!-- competition started -->
+      <!-- <IsGameStartCondition message="{game_status}"/> -->
+     <!-- </Delay> -->
+<!--   
+        <IfThenElse>
+            <UnderAttackCondition message="{self_state}" />
+             <PubNavigateCommandActionBTNode spin_speed="6.5"
+                scap_state="1" />
+            <PubNavigateCommandActionBTNode spin_speed="0.9"
+                scap_state="0" />
+        </IfThenElse>  -->
+                      <!-- 注意无人机 -->
+      <!-- <SubTree ID="relocate"/> -->
+      <Fallback>
+        <!-- 只有高血量时才允许巡逻/追敌 -->
+
+
+
+
+            <ReactiveSequence>
+            <SubSelfStateActionBTNode topic_name="/self_state"
+                                self_state="{self_state}"/>
+                <IsSelfHPHighCondition message="{self_state}" hp_threshold="200"/>
+                    <ReactiveFallback>
+                        <ReactiveSequence>
+                            <IsSelfAmmoLowCondition self_state_msg="{self_state}" threshold="100"/>
+                            <ReactiveFallback>
+                                <SubTree ID="chase"/>
+                                <SubTree ID="send_goal" goal_pose="{patrol_center}"/>
+                            </ReactiveFallback> 
+                        </ReactiveSequence>
+                        <ReactiveSequence>
+                            <IsSelfHPHighCondition message="{self_state}" hp_threshold="300"/>
+                            <SubTree ID="send_goal" goal_pose="{patrol_center}"/>
+                        </ReactiveSequence>
+                    </ReactiveFallback>
+            </ReactiveSequence>
+
+
+
+            
+            <!-- 低血量优先回家 -->
+        <Sequence>
+            
+            <!-- <Subtree ID="relocate"/> -->
+            <KeepRunningUntilFailure>
+                <ReactiveSequence>
+                    <SubSelfStateActionBTNode topic_name="/self_state"
+                                self_state="{self_state}"/>
+                    <IsSelfHPLowCondition message="{self_state}" hp_threshold="380"/>
+                    <SubTree ID="send_goal" goal_pose="{home}"/>
+                </ReactiveSequence>
+            </KeepRunningUntilFailure>
+        </Sequence>
+      </Fallback>
+  
+         
+    </Sequence>
+  </BehaviorTree>
+
+
+
+<BehaviorTree ID="chase">
+        <Sequence>
+            <Sequence>
+                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                <SubGimbalYawActionBTNode topic_name="/gimbal2_yaw"
+                gimbal2_yaw="{gimbal2_yaw}" />
+                
+            </Sequence>
+            <ReactiveSequence>
+                    <SubAutoaimCommunicationActionBTNode topic_name="/autoaim_communication"
+                    current_location="{current_location}"
+                    gimbal2_yaw="{gimbal2_yaw}"
+                    enemy_autoaim_position="{enemy_autoaim_position}"
+                    enemy_autoaim_id="{enemy_autoaim_id}" />
+                    <PubChasingPositionAction enemy_autoaim_position="{enemy_autoaim_position}"
+                                                chasing_stage="{chasing_stage}"
+                                                chasing_goal="{chasing_goal}"/>
+                
+                    <SendGoalActionBTNode goal_pose="{chasing_goal}" />
+                    <ChasingStageConfirmAs chasing_stage="{chasing_stage}"/>
+            </ReactiveSequence>
+        </Sequence>
+    </BehaviorTree>
+
+    <!-- <BehaviorTree ID="relocate">
+        <Sequence>
+            <GetCurrentLocationActionBTNode current_location="{current_location}" />
+            <SubRelocationPoseActionBTNode 
+            topic_name="/pcl_pose"
+            relocation_pose="{relocation_pose}"/>
+            <PubRelocatePoseActionBTNode 
+            current_location="{current_location}"
+            relocation_pose="{relocation_pose}"/>
+        </Sequence>
+    </BehaviorTree> -->
+
+    <BehaviorTree ID="send_goal">
+        <Sequence>
+            <ReactiveSequence>
+                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                <SubScanDistanceActionBTNode topic_name="/scan"
+                scan_msg="{scan_msg}"/>
+            </ReactiveSequence>
+                <ReactiveFallback>
+                    <ForceSuccess>
+                        <Sequence>
+                            <SendGoalActionBTNode goal_pose="{goal_pose}" />
+                            <GoalReachedActionAs goal_pose="{goal_pose}"
+                            current_location="{current_location}"/>
+                        </Sequence>
+                    </ForceSuccess>
+                </ReactiveFallback>
+        </Sequence>
+    </BehaviorTree>
+
+<BehaviorTree ID="send_goal_es">
+    
+        <Sequence>
+            <Sequence>
+                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                <SubScanDistanceActionBTNode topic_name="/scan"
+                scan_msg="{scan_msg}"/>
+            </Sequence>
+                <Fallback>
+                    <Sequence>
+                        <SendGoalActionBTNode goal_pose="{goal_pose}" />
+                        <GoalReachedActionAs goal_pose="{goal_pose}"/>
+                    </Sequence>
+                        <ReactiveSequence>
+                            <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                            <ForceSuccess>
+                            <SubScanDistanceActionBTNode topic_name="/scan"
+                            scan_msg="{scan_msg}"/>
+                            </ForceSuccess>
+                            <ForceSuccess>
+                                <PubEscapeAction scan_msg="{scan_msg}"
+                                                escape_stage="{escape_stage}"/>
+                            </ForceSuccess>
+                            <EscapeStageConfirmAs escape_stage="{escape_stage}"/>
+                        </ReactiveSequence>
+                </Fallback>
+        </Sequence>
+        </BehaviorTree>
+
+</root>

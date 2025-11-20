@@ -1,0 +1,6 @@
+[0.135s] Invoking command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/rm_autonomy_interfaces
+[0.749s] -- The C compiler identification is GNU 9.4.0
+[0.750s] -- The CXX compiler identification is GNU 9.4.0
+[0.751s] -- Check for working C compiler: /usr/bin/cc
+[0.753s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.753s] -- Detecting C compiler ABI info

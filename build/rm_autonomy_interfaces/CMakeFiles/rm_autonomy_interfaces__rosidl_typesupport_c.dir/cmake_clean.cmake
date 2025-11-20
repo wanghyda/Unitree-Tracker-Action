@@ -1,0 +1,39 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/all_robot_hp__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/ally_robot_position__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/arena_status__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/autoaim_communication__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/chase_control__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/enemy_robot_mark__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/fire_trigger__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/game_status__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/human_intervention__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/invincible_target__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/navigate_command__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/omni_sensing__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/radar_enemy_position__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/radar_target__type_support.cpp.o"
+  "CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/self_state__type_support.cpp.o"
+  "librm_autonomy_interfaces__rosidl_typesupport_c.pdb"
+  "librm_autonomy_interfaces__rosidl_typesupport_c.so"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/all_robot_hp__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/ally_robot_position__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/arena_status__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/autoaim_communication__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/chase_control__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/enemy_robot_mark__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/fire_trigger__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/game_status__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/human_intervention__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/invincible_target__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/navigate_command__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/omni_sensing__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/radar_enemy_position__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/radar_target__type_support.cpp"
+  "rosidl_typesupport_c/rm_autonomy_interfaces/msg/self_state__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="BehaviorTree">
+    <BehaviorTree ID="BehaviorTree">
+    
+        <Sequence>
+            <Sequence>
+                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                <SubScanDistanceActionBTNode topic_name="/scan"
+                scan_msg="{scan_msg}"/>
+            </Sequence>
+                <Fallback>
+                    <Sequence>
+                        <SendGoalActionBTNode goal_pose="{home}" />
+                        <GoalReachedActionAs goal_pose="{home}"/>
+                    </Sequence>
+                        <ReactiveSequence>
+                            <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                            <ForceSuccess>
+                            <SubScanDistanceActionBTNode topic_name="/scan"
+                            scan_msg="{scan_msg}"/>
+                            </ForceSuccess>
+                            <ForceSuccess>
+                                <PubEscapeAction scan_msg="{scan_msg}"
+                                                escape_stage="{escape_stage}"/>
+                            </ForceSuccess>
+                            <EscapeStageConfirmAs escape_stage="{escape_stage}"/>
+                        </ReactiveSequence>
+                </Fallback>
+        </Sequence>
+        </BehaviorTree>
+</root>

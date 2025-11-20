@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "../rosidl_generator_py/rm_autonomy_interfaces/_rm_autonomy_interfaces_s.ep.rosidl_typesupport_c.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/_rm_autonomy_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/_rm_autonomy_interfaces_s.ep.rosidl_typesupport_introspection_c.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/__init__.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_all_robot_hp.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_all_robot_hp_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_ally_robot_position.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_ally_robot_position_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_arena_status.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_arena_status_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_autoaim_communication.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_autoaim_communication_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_chase_control.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_chase_control_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_enemy_robot_mark.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_enemy_robot_mark_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_fire_trigger.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_fire_trigger_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_game_status.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_game_status_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_human_intervention.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_human_intervention_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_invincible_target.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_invincible_target_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_navigate_command.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_navigate_command_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_omni_sensing.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_omni_sensing_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_radar_enemy_position.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_radar_enemy_position_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_radar_target.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_radar_target_s.c"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_self_state.py"
+  "../rosidl_generator_py/rm_autonomy_interfaces/msg/_self_state_s.c"
+  "CMakeFiles/rm_autonomy_interfaces__py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/rm_autonomy_interfaces__py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,316 @@
+[0.108s] Invoking command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/rm_autonomy_interfaces -- -j8 -l8
+[0.398s] [ 12%] Built target rm_autonomy_interfaces__rosidl_generator_c
+[0.410s] [ 12%] Built target rm_autonomy_interfaces__cpp
+[0.530s] [ 24%] Built target rm_autonomy_interfaces__rosidl_typesupport_c
+[0.594s] [ 36%] Built target rm_autonomy_interfaces__rosidl_typesupport_cpp
+[0.596s] [ 48%] Built target rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp
+[0.607s] [ 60%] Built target rm_autonomy_interfaces__rosidl_typesupport_introspection_c
+[0.662s] [ 72%] Built target rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.765s] [ 84%] Built target rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c
+[0.874s] [ 84%] Built target rm_autonomy_interfaces
+[0.967s] [ 85%] Built target rm_autonomy_interfaces__py
+[1.084s] [ 96%] Built target rm_autonomy_interfaces__python
+[1.159s] [ 97%] Built target rm_autonomy_interfaces__rosidl_typesupport_c__pyext
+[1.215s] [ 99%] Built target rm_autonomy_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.266s] [100%] Built target rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.365s] Invoked command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/rm_autonomy_interfaces -- -j8 -l8
+[2.533s] Invoking command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/rm_autonomy_interfaces
+[2.571s] -- Install configuration: ""
+[2.573s] -- Execute custom install script
+[2.574s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/ament_index/resource_index/rosidl_interfaces/rm_autonomy_interfaces
+[2.577s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/all_robot_hp.h
+[2.577s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/ally_robot_position.h
+[2.578s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/arena_status.h
+[2.578s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/autoaim_communication.h
+[2.579s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/chase_control.h
+[2.579s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__functions.h
+[2.580s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__struct.h
+[2.581s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__type_support.h
+[2.581s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__functions.h
+[2.582s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__struct.h
+[2.582s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__type_support.h
+[2.583s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__functions.h
+[2.584s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__struct.h
+[2.584s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__type_support.h
+[2.585s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__functions.h
+[2.586s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__struct.h
+[2.586s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__type_support.h
+[2.587s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__functions.h
+[2.588s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__struct.h
+[2.590s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__type_support.h
+[2.590s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__functions.h
+[2.591s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__struct.h
+[2.591s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__type_support.h
+[2.592s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__functions.h
+[2.592s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__struct.h
+[2.593s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__type_support.h
+[2.593s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__functions.h
+[2.594s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__struct.h
+[2.595s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__type_support.h
+[2.595s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__functions.h
+[2.596s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__struct.h
+[2.596s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__type_support.h
+[2.597s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__functions.h
+[2.597s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__struct.h
+[2.598s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__type_support.h
+[2.598s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__functions.h
+[2.599s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__struct.h
+[2.600s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__type_support.h
+[2.600s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__functions.h
+[2.601s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__struct.h
+[2.601s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__type_support.h
+[2.602s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__functions.h
+[2.602s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__struct.h
+[2.603s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__type_support.h
+[2.604s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__functions.h
+[2.604s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__struct.h
+[2.605s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__type_support.h
+[2.606s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__functions.h
+[2.607s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__struct.h
+[2.607s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__type_support.h
+[2.608s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/enemy_robot_mark.h
+[2.608s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/fire_trigger.h
+[2.609s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/game_status.h
+[2.609s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/human_intervention.h
+[2.610s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/invincible_target.h
+[2.611s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/navigate_command.h
+[2.611s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/omni_sensing.h
+[2.613s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/radar_enemy_position.h
+[2.613s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/radar_target.h
+[2.615s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.615s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/self_state.h
+[2.616s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/environment/library_path.sh
+[2.617s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/environment/library_path.dsv
+[2.622s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__rosidl_typesupport_fastrtps_c.h
+[2.623s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__rosidl_typesupport_fastrtps_c.h
+[2.624s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__rosidl_typesupport_fastrtps_c.h
+[2.626s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__rosidl_typesupport_fastrtps_c.h
+[2.626s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__rosidl_typesupport_fastrtps_c.h
+[2.626s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__rosidl_typesupport_fastrtps_c.h
+[2.627s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__rosidl_typesupport_fastrtps_c.h
+[2.627s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__rosidl_typesupport_fastrtps_c.h
+[2.627s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__rosidl_typesupport_fastrtps_c.h
+[2.627s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__rosidl_typesupport_fastrtps_c.h
+[2.627s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__rosidl_typesupport_fastrtps_c.h
+[2.627s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__rosidl_typesupport_fastrtps_c.h
+[2.627s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__rosidl_typesupport_fastrtps_c.h
+[2.628s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__rosidl_typesupport_fastrtps_c.h
+[2.628s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__rosidl_typesupport_fastrtps_c.h
+[2.628s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.633s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.634s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__rosidl_typesupport_fastrtps_cpp.hpp
+[2.635s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.635s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.635s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__rosidl_typesupport_fastrtps_cpp.hpp
+[2.635s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__rosidl_typesupport_fastrtps_cpp.hpp
+[2.635s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__rosidl_typesupport_fastrtps_cpp.hpp
+[2.635s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[2.635s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.635s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__rosidl_typesupport_fastrtps_cpp.hpp
+[2.636s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__rosidl_typesupport_fastrtps_cpp.hpp
+[2.636s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__rosidl_typesupport_fastrtps_cpp.hpp
+[2.636s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__rosidl_typesupport_fastrtps_cpp.hpp
+[2.636s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.636s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__rosidl_typesupport_fastrtps_cpp.hpp
+[2.636s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.636s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.636s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.637s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__rosidl_typesupport_introspection_c.h
+[2.637s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__rosidl_typesupport_introspection_c.h
+[2.637s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__rosidl_typesupport_introspection_c.h
+[2.638s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__rosidl_typesupport_introspection_c.h
+[2.638s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__rosidl_typesupport_introspection_c.h
+[2.638s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__rosidl_typesupport_introspection_c.h
+[2.638s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__rosidl_typesupport_introspection_c.h
+[2.639s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__rosidl_typesupport_introspection_c.h
+[2.642s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__rosidl_typesupport_introspection_c.h
+[2.642s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__rosidl_typesupport_introspection_c.h
+[2.642s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__rosidl_typesupport_introspection_c.h
+[2.642s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__rosidl_typesupport_introspection_c.h
+[2.642s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__rosidl_typesupport_introspection_c.h
+[2.642s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__rosidl_typesupport_introspection_c.h
+[2.643s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__rosidl_typesupport_introspection_c.h
+[2.645s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.646s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/all_robot_hp.hpp
+[2.646s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/ally_robot_position.hpp
+[2.646s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/arena_status.hpp
+[2.646s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/autoaim_communication.hpp
+[2.646s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/chase_control.hpp
+[2.647s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__builder.hpp
+[2.647s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__struct.hpp
+[2.647s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__traits.hpp
+[2.647s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__type_support.hpp
+[2.647s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__builder.hpp
+[2.647s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__struct.hpp
+[2.648s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__traits.hpp
+[2.648s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__type_support.hpp
+[2.648s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__builder.hpp
+[2.648s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__struct.hpp
+[2.649s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__traits.hpp
+[2.649s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__type_support.hpp
+[2.649s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__builder.hpp
+[2.649s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__struct.hpp
+[2.649s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__traits.hpp
+[2.649s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__type_support.hpp
+[2.649s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__builder.hpp
+[2.649s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__struct.hpp
+[2.650s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__traits.hpp
+[2.650s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__type_support.hpp
+[2.650s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__builder.hpp
+[2.650s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__struct.hpp
+[2.650s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__traits.hpp
+[2.651s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__type_support.hpp
+[2.651s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__builder.hpp
+[2.651s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__struct.hpp
+[2.651s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__traits.hpp
+[2.651s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__type_support.hpp
+[2.652s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__builder.hpp
+[2.653s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__struct.hpp
+[2.653s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__traits.hpp
+[2.653s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__type_support.hpp
+[2.654s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__builder.hpp
+[2.654s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__struct.hpp
+[2.654s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__traits.hpp
+[2.654s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__type_support.hpp
+[2.654s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__builder.hpp
+[2.654s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__struct.hpp
+[2.655s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__traits.hpp
+[2.655s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__type_support.hpp
+[2.655s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__builder.hpp
+[2.656s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__struct.hpp
+[2.656s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__traits.hpp
+[2.656s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__type_support.hpp
+[2.656s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__builder.hpp
+[2.657s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__struct.hpp
+[2.657s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__traits.hpp
+[2.657s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__type_support.hpp
+[2.657s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__builder.hpp
+[2.658s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__struct.hpp
+[2.658s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__traits.hpp
+[2.658s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__type_support.hpp
+[2.658s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__builder.hpp
+[2.659s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__struct.hpp
+[2.659s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__traits.hpp
+[2.659s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__type_support.hpp
+[2.659s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__builder.hpp
+[2.660s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__struct.hpp
+[2.660s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__traits.hpp
+[2.660s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__type_support.hpp
+[2.661s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/enemy_robot_mark.hpp
+[2.661s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/fire_trigger.hpp
+[2.661s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/game_status.hpp
+[2.661s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/human_intervention.hpp
+[2.662s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/invincible_target.hpp
+[2.662s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/navigate_command.hpp
+[2.662s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/omni_sensing.hpp
+[2.662s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/radar_enemy_position.hpp
+[2.663s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/radar_target.hpp
+[2.663s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.663s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/self_state.hpp
+[2.665s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__rosidl_typesupport_introspection_cpp.hpp
+[2.666s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__rosidl_typesupport_introspection_cpp.hpp
+[2.666s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__rosidl_typesupport_introspection_cpp.hpp
+[2.666s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__rosidl_typesupport_introspection_cpp.hpp
+[2.666s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__rosidl_typesupport_introspection_cpp.hpp
+[2.666s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__rosidl_typesupport_introspection_cpp.hpp
+[2.666s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__rosidl_typesupport_introspection_cpp.hpp
+[2.666s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__rosidl_typesupport_introspection_cpp.hpp
+[2.667s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__rosidl_typesupport_introspection_cpp.hpp
+[2.667s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__rosidl_typesupport_introspection_cpp.hpp
+[2.667s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__rosidl_typesupport_introspection_cpp.hpp
+[2.668s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__rosidl_typesupport_introspection_cpp.hpp
+[2.668s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__rosidl_typesupport_introspection_cpp.hpp
+[2.668s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__rosidl_typesupport_introspection_cpp.hpp
+[2.668s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__rosidl_typesupport_introspection_cpp.hpp
+[2.669s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/environment/pythonpath.sh
+[2.669s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/environment/pythonpath.dsv
+[2.670s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/__init__.py
+[2.671s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/__init__.py
+[2.671s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_all_robot_hp.py
+[2.672s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_ally_robot_position.py
+[2.672s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_arena_status.py
+[2.672s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_autoaim_communication.py
+[2.673s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_chase_control.py
+[2.673s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_enemy_robot_mark.py
+[2.673s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_fire_trigger.py
+[2.673s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_game_status.py
+[2.674s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_human_intervention.py
+[2.674s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_invincible_target.py
+[2.674s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_navigate_command.py
+[2.675s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_omni_sensing.py
+[2.675s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_radar_enemy_position.py
+[2.675s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_radar_target.py
+[2.675s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_self_state.py
+[2.676s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/rm_autonomy_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[2.677s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/rm_autonomy_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[2.677s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/rm_autonomy_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[2.678s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__python.so
+[2.678s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/AllRobotHP.idl
+[2.679s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/AllyRobotPosition.idl
+[2.679s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/ArenaStatus.idl
+[2.680s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/AutoaimCommunication.idl
+[2.680s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/GameStatus.idl
+[2.680s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/EnemyRobotMark.idl
+[2.681s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/HumanIntervention.idl
+[2.681s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/OmniSensing.idl
+[2.682s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/RadarEnemyPosition.idl
+[2.682s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/RadarTarget.idl
+[2.682s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/SelfState.idl
+[2.683s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/NavigateCommand.idl
+[2.683s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/FireTrigger.idl
+[2.684s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/InvincibleTarget.idl
+[2.684s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/ChaseControl.idl
+[2.684s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/AllRobotHP.msg
+[2.685s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/AllyRobotPosition.msg
+[2.685s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/ArenaStatus.msg
+[2.686s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/AutoaimCommunication.msg
+[2.686s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/GameStatus.msg
+[2.687s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/EnemyRobotMark.msg
+[2.687s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/HumanIntervention.msg
+[2.687s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/OmniSensing.msg
+[2.688s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/RadarEnemyPosition.msg
+[2.688s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/RadarTarget.msg
+[2.689s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/SelfState.msg
+[2.689s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/NavigateCommand.msg
+[2.689s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/FireTrigger.msg
+[2.690s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/InvincibleTarget.msg
+[2.691s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/msg/ChaseControl.msg
+[2.691s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/ament_index/resource_index/package_run_dependencies/rm_autonomy_interfaces
+[2.691s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/ament_index/resource_index/parent_prefix_path/rm_autonomy_interfaces
+[2.692s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/environment/ament_prefix_path.sh
+[2.692s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/environment/ament_prefix_path.dsv
+[2.693s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/environment/path.sh
+[2.694s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/environment/path.dsv
+[2.694s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/local_setup.bash
+[2.694s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/local_setup.sh
+[2.694s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/local_setup.zsh
+[2.695s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/local_setup.dsv
+[2.695s] -- Symlinking: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/package.dsv
+[2.720s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/ament_index/resource_index/packages/rm_autonomy_interfaces
+[2.721s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.721s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.722s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.722s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.723s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.723s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.723s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.726s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfacesConfig.cmake
+[2.727s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfacesConfig-version.cmake
+[2.727s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/package.xml
+[2.727s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_generator_c.so
+[2.727s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_introspection_c.so
+[2.728s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_c.so
+[2.728s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.733s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_cpp.so
+[2.801s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_generator_cExport.cmake
+[2.802s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.802s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.802s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.802s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_cExport.cmake
+[2.802s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.803s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_generator_cppExport.cmake
+[2.803s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.803s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.803s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_cppExport.cmake
+[2.803s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.850s] Invoked command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/rm_autonomy_interfaces

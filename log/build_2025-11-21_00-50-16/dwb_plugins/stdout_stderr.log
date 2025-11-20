@@ -1,0 +1,14 @@
+[ 15%] Built target gtest_main
+[ 30%] Built target gtest
+[ 46%] [32mBuilding CXX object CMakeFiles/standard_traj_generator.dir/src/kinematic_parameters.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/standard_traj_generator.dir/src/standard_traj_generator.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/standard_traj_generator.dir/src/xy_theta_iterator.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/standard_traj_generator.dir/src/limited_accel_generator.cpp.o[0m
+[ 69%] [32mBuilding CXX object test/CMakeFiles/vtest.dir/velocity_iterator_test.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable vtest[0m
+[ 76%] Built target vtest
+[ 84%] [32m[1mLinking CXX shared library libstandard_traj_generator.so[0m
+[ 84%] Built target standard_traj_generator
+[ 92%] [32mBuilding CXX object test/CMakeFiles/twist_gen_test.dir/twist_gen.cpp.o[0m
+[100%] [32m[1mLinking CXX executable twist_gen_test[0m
+[100%] Built target twist_gen_test

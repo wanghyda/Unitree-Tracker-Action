@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(rm_autonomy_interfaces_IDL_FILES "msg/AllRobotHP.idl;msg/AllyRobotPosition.idl;msg/ArenaStatus.idl;msg/AutoaimCommunication.idl;msg/GameStatus.idl;msg/EnemyRobotMark.idl;msg/HumanIntervention.idl;msg/OmniSensing.idl;msg/RadarEnemyPosition.idl;msg/RadarTarget.idl;msg/SelfState.idl;msg/NavigateCommand.idl;msg/FireTrigger.idl;msg/InvincibleTarget.idl;msg/ChaseControl.idl")
+set(rm_autonomy_interfaces_INTERFACE_FILES "msg/AllRobotHP.msg;msg/AllyRobotPosition.msg;msg/ArenaStatus.msg;msg/AutoaimCommunication.msg;msg/GameStatus.msg;msg/EnemyRobotMark.msg;msg/HumanIntervention.msg;msg/OmniSensing.msg;msg/RadarEnemyPosition.msg;msg/RadarTarget.msg;msg/SelfState.msg;msg/NavigateCommand.msg;msg/FireTrigger.msg;msg/InvincibleTarget.msg;msg/ChaseControl.msg")

@@ -1,0 +1,158 @@
+[0.115s] Invoking command in '/home/unitree/navigation_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/reconstruction/linefit_ground_segmentation_ros2/linefit_ground_segmentation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/linefit_ground_segmentation
+[0.283s] -- The C compiler identification is GNU 9.4.0
+[0.443s] -- The CXX compiler identification is GNU 9.4.0
+[0.451s] -- Check for working C compiler: /usr/bin/cc
+[0.642s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.644s] -- Detecting C compiler ABI info
+[0.864s] -- Detecting C compiler ABI info - done
+[0.905s] -- Detecting C compile features
+[0.905s] -- Detecting C compile features - done
+[0.906s] -- Check for working CXX compiler: /usr/bin/c++
+[1.126s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.128s] -- Detecting CXX compiler ABI info
+[1.358s] -- Detecting CXX compiler ABI info - done
+[1.373s] -- Detecting CXX compile features
+[1.373s] -- Detecting CXX compile features - done
+[1.381s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.467s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.467s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.815s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.950s] -- Checking for module 'eigen3'
+[1.997s] --   Found eigen3, version 3.3.7
+[2.099s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.099s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[2.279s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[2.292s] -- Checking for module 'libusb-1.0'
+[2.367s] --   Found libusb-1.0, version 1.0.23
+[2.504s] -- Found USB_10: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[2.686s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[2.686s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.943s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[2.944s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.945s] ** WARNING ** io features related to pcap will be disabled
+[2.947s] ** WARNING ** io features related to png will be disabled
+[3.045s] -- The imported target "vtkParseOGLExt" references the file
+[3.045s]    "/usr/bin/vtkParseOGLExt-7.1"
+[3.045s] but this file does not exist.  Possible reasons include:
+[3.046s] * The file was deleted, renamed, or moved to another location.
+[3.046s] * An install or uninstall procedure did not complete successfully.
+[3.046s] * The installation package was faulty and contained
+[3.046s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.046s] but not all the files it references.
+[3.046s] 
+[3.052s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[3.052s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[3.052s] but this file does not exist.  Possible reasons include:
+[3.052s] * The file was deleted, renamed, or moved to another location.
+[3.052s] * An install or uninstall procedure did not complete successfully.
+[3.052s] * The installation package was faulty and contained
+[3.053s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.053s] but not all the files it references.
+[3.053s] 
+[3.053s] -- The imported target "vtk" references the file
+[3.053s]    "/usr/bin/vtk"
+[3.053s] but this file does not exist.  Possible reasons include:
+[3.053s] * The file was deleted, renamed, or moved to another location.
+[3.053s] * An install or uninstall procedure did not complete successfully.
+[3.053s] * The installation package was faulty and contained
+[3.054s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.054s] but not all the files it references.
+[3.054s] 
+[3.054s] -- The imported target "pvtk" references the file
+[3.054s]    "/usr/bin/pvtk"
+[3.054s] but this file does not exist.  Possible reasons include:
+[3.054s] * The file was deleted, renamed, or moved to another location.
+[3.054s] * An install or uninstall procedure did not complete successfully.
+[3.058s] * The installation package was faulty and contained
+[3.058s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[3.058s] but not all the files it references.
+[3.059s] 
+[3.094s] -- Found libusb-1.0: /usr/include  
+[3.095s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[3.146s] -- Checking for module 'flann'
+[3.228s] --   Found flann, version 1.9.1
+[3.425s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[3.464s] -- looking for PCL_COMMON
+[3.467s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[3.468s] -- looking for PCL_OCTREE
+[3.469s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[3.470s] -- looking for PCL_IO
+[3.472s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[3.472s] -- looking for PCL_KDTREE
+[3.474s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[3.474s] -- looking for PCL_SEARCH
+[3.476s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[3.476s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.480s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[3.481s] -- looking for PCL_FILTERS
+[3.482s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[3.483s] -- looking for PCL_GEOMETRY
+[3.484s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[3.485s] -- looking for PCL_2D
+[3.485s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[3.485s] -- looking for PCL_FEATURES
+[3.486s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[3.487s] -- looking for PCL_ML
+[3.494s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[3.494s] -- looking for PCL_SEGMENTATION
+[3.494s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[3.494s] -- Found PCL: pcl_common;pcl_octree;pcl_io;pcl_kdtree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_features;pcl_ml;pcl_segmentation;/usr/lib/aarch64-linux-gnu/libboost_system.so;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so;/usr/lib/aarch64-linux-gnu/libboost_date_time.so;/usr/lib/aarch64-linux-gnu/libboost_iostreams.so;/usr/lib/aarch64-linux-gnu/libboost_regex.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/aarch64-linux-gnu/libfreetype.so;/usr/lib/aarch64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/aarch64-linux-gnu/libjpeg.so;/usr/lib/aarch64-linux-gnu/libpng.so;/usr/lib/aarch64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/aarch64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[3.743s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.769s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.394s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.510s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.834s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.526s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.549s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.566s] -- Looking for pthread.h
+[7.416s] -- Looking for pthread.h - found
+[7.416s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.368s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.369s] -- Looking for pthread_create in pthreads
+[8.896s] -- Looking for pthread_create in pthreads - not found
+[8.896s] -- Looking for pthread_create in pthread
+[9.723s] -- Looking for pthread_create in pthread - found
+[9.725s] -- Found Threads: TRUE  
+[10.803s] -- Configuring done
+[10.993s] -- Generating done
+[11.005s] -- Build files have been written to: /home/unitree/navigation_ws/build/linefit_ground_segmentation
+[11.117s] Invoked command in '/home/unitree/navigation_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/reconstruction/linefit_ground_segmentation_ros2/linefit_ground_segmentation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/linefit_ground_segmentation
+[11.121s] Invoking command in '/home/unitree/navigation_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/linefit_ground_segmentation -- -j8 -l8
+[17.264s] [35m[1mScanning dependencies of target linefit_ground_segmentation[0m
+[17.265s] [ 20%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/bin.cc.o[0m
+[17.265s] [ 40%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/ground_segmentation.cc.o[0m
+[17.265s] [ 60%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/viewer.cc.o[0m
+[17.265s] [ 80%] [32mBuilding CXX object CMakeFiles/linefit_ground_segmentation.dir/src/segment.cc.o[0m
+[44.400s] [100%] [32m[1mLinking CXX shared library liblinefit_ground_segmentation.so[0m
+[45.198s] [100%] Built target linefit_ground_segmentation
+[45.230s] Invoked command in '/home/unitree/navigation_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/linefit_ground_segmentation -- -j8 -l8
+[45.333s] Invoking command in '/home/unitree/navigation_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/linefit_ground_segmentation
+[45.360s] -- Install configuration: ""
+[45.360s] -- Execute custom install script
+[45.361s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/include/ground_segmentation/bin.h
+[45.362s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h
+[45.362s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/include/ground_segmentation/segment.h
+[45.362s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h
+[45.363s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h
+[45.363s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.sh
+[45.363s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.dsv
+[45.364s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/lib/liblinefit_ground_segmentation.so
+[45.364s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation
+[45.365s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation
+[45.365s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.sh
+[45.365s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.dsv
+[45.366s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.sh
+[45.366s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.dsv
+[45.367s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.bash
+[45.367s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.sh
+[45.367s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.zsh
+[45.368s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.dsv
+[45.368s] -- Symlinking: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.dsv
+[45.394s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/packages/linefit_ground_segmentation
+[45.395s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+[45.395s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+[45.396s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_libraries-extras.cmake
+[45.396s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig.cmake
+[45.396s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig-version.cmake
+[45.396s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.xml
+[45.402s] Invoked command in '/home/unitree/navigation_ws/build/linefit_ground_segmentation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/linefit_ground_segmentation

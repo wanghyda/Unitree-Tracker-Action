@@ -1,0 +1,313 @@
+[0.131s] Invoking command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/rm_autonomy_interfaces
+[0.848s] -- The C compiler identification is GNU 9.4.0
+[0.849s] -- The CXX compiler identification is GNU 9.4.0
+[0.849s] -- Check for working C compiler: /usr/bin/cc
+[0.849s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.849s] -- Detecting C compiler ABI info
+[0.894s] -- Detecting C compiler ABI info - done
+[0.911s] -- Detecting C compile features
+[0.912s] -- Detecting C compile features - done
+[0.920s] -- Check for working CXX compiler: /usr/bin/c++
+[1.130s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.132s] -- Detecting CXX compiler ABI info
+[1.349s] -- Detecting CXX compiler ABI info - done
+[1.366s] -- Detecting CXX compile features
+[1.366s] -- Detecting CXX compile features - done
+[1.377s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.465s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.465s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.934s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[1.947s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.050s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.076s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.304s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.372s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.578s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.668s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.703s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.941s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.254s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.762s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.817s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.824s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.911s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.912s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.912s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.912s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[4.013s] -- Found PythonExtra: .so  
+[4.256s] -- Added test 'lint_cmake' to check CMake code style
+[4.260s] -- Added test 'xmllint' to check XML markup files
+[4.285s] -- Configuring done
+[4.570s] -- Generating done
+[4.615s] -- Build files have been written to: /home/unitree/navigation_ws/build/rm_autonomy_interfaces
+[4.716s] Invoked command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/rm_autonomy_interfaces
+[4.718s] Invoking command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/rm_autonomy_interfaces -- -j8 -l8
+[4.993s] [35m[1mScanning dependencies of target rm_autonomy_interfaces__cpp[0m
+[5.040s] [  0%] Built target rm_autonomy_interfaces__cpp
+[5.107s] [35m[1mScanning dependencies of target rm_autonomy_interfaces__rosidl_generator_c[0m
+[5.173s] [  0%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/all_robot_hp__functions.c.o[0m
+[5.194s] [35m[1mScanning dependencies of target rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[5.212s] [35m[1mScanning dependencies of target rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp[0m
+[5.227s] [35m[1mScanning dependencies of target rm_autonomy_interfaces__rosidl_typesupport_cpp[0m
+[5.227s] [  1%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/arena_status__functions.c.o[0m
+[5.255s] [  2%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/autoaim_communication__functions.c.o[0m
+[5.264s] [  2%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/game_status__functions.c.o[0m
+[5.265s] [  3%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/ally_robot_position__functions.c.o[0m
+[5.396s] [  4%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/all_robot_hp__type_support.cpp.o[0m
+[5.396s] [  5%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/all_robot_hp__type_support.cpp.o[0m
+[5.422s] [  6%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/all_robot_hp__type_support.cpp.o[0m
+[5.761s] [  6%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/ally_robot_position__type_support.cpp.o[0m
+[5.799s] [  7%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__functions.c.o[0m
+[5.892s] [  8%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/human_intervention__functions.c.o[0m
+[5.896s] [  8%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/omni_sensing__functions.c.o[0m
+[5.990s] [  9%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/radar_enemy_position__functions.c.o[0m
+[6.408s] [ 10%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/radar_target__functions.c.o[0m
+[6.514s] [ 10%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/self_state__functions.c.o[0m
+[6.718s] [ 11%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/navigate_command__functions.c.o[0m
+[6.920s] [ 12%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/fire_trigger__functions.c.o[0m
+[6.976s] [ 13%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/invincible_target__functions.c.o[0m
+[7.255s] [ 14%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/ally_robot_position__type_support.cpp.o[0m
+[7.415s] [ 15%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/arena_status__type_support.cpp.o[0m
+[7.605s] [ 15%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/game_status__type_support.cpp.o[0m
+[7.629s] [ 15%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_generator_c.dir/rosidl_generator_c/rm_autonomy_interfaces/msg/detail/chase_control__functions.c.o[0m
+[7.629s] [ 15%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/arena_status__type_support.cpp.o[0m
+[7.629s] [ 16%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/autoaim_communication__type_support.cpp.o[0m
+[7.786s] [ 17%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/enemy_robot_mark__type_support.cpp.o[0m
+[7.810s] [ 18%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/ally_robot_position__type_support.cpp.o[0m
+[8.903s] [ 19%] [32m[1mLinking C shared library librm_autonomy_interfaces__rosidl_generator_c.so[0m
+[9.019s] [ 20%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/human_intervention__type_support.cpp.o[0m
+[9.226s] [ 21%] Built target rm_autonomy_interfaces__rosidl_generator_c
+[9.423s] [35m[1mScanning dependencies of target rm_autonomy_interfaces__rosidl_typesupport_introspection_c[0m
+[9.537s] [ 22%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/omni_sensing__type_support.cpp.o[0m
+[9.585s] [ 22%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/radar_enemy_position__type_support.cpp.o[0m
+[9.618s] [ 23%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/all_robot_hp__type_support.c.o[0m
+[9.800s] [ 24%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/radar_target__type_support.cpp.o[0m
+[9.914s] [ 24%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/ally_robot_position__type_support.c.o[0m
+[10.270s] [ 25%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/arena_status__type_support.c.o[0m
+[10.364s] [ 25%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/arena_status__type_support.cpp.o[0m
+[10.472s] [ 26%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/autoaim_communication__type_support.cpp.o[0m
+[10.583s] [ 27%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/autoaim_communication__type_support.c.o[0m
+[10.602s] [ 28%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/game_status__type_support.cpp.o[0m
+[11.016s] [ 29%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/game_status__type_support.c.o[0m
+[11.303s] [ 29%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/enemy_robot_mark__type_support.cpp.o[0m
+[11.421s] [ 29%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__type_support.c.o[0m
+[11.706s] [ 30%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/self_state__type_support.cpp.o[0m
+[11.728s] [ 31%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/human_intervention__type_support.c.o[0m
+[11.812s] [ 32%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/fire_trigger__type_support.cpp.o[0m
+[11.859s] [ 32%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/navigate_command__type_support.cpp.o[0m
+[12.132s] [ 33%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/omni_sensing__type_support.c.o[0m
+[12.398s] [ 34%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/autoaim_communication__type_support.cpp.o[0m
+[12.478s] [ 34%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/radar_enemy_position__type_support.c.o[0m
+[12.796s] [ 35%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/radar_target__type_support.c.o[0m
+[13.087s] [ 36%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/self_state__type_support.c.o[0m
+[13.197s] [ 37%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/game_status__type_support.cpp.o[0m
+[13.323s] [ 37%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/navigate_command__type_support.c.o[0m
+[13.461s] [ 38%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/fire_trigger__type_support.c.o[0m
+[13.618s] [ 39%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/invincible_target__type_support.c.o[0m
+[13.673s] [ 40%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/invincible_target__type_support.cpp.o[0m
+[13.773s] [ 41%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rm_autonomy_interfaces/msg/detail/chase_control__type_support.c.o[0m
+[13.817s] [ 41%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/radar_enemy_position__type_support.cpp.o[0m
+[13.818s] [ 42%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/omni_sensing__type_support.cpp.o[0m
+[13.838s] [ 43%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/human_intervention__type_support.cpp.o[0m
+[13.840s] [ 43%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rm_autonomy_interfaces/msg/chase_control__type_support.cpp.o[0m
+[13.968s] [ 44%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/radar_target__type_support.cpp.o[0m
+[14.199s] [ 44%] [32m[1mLinking C shared library librm_autonomy_interfaces__rosidl_typesupport_introspection_c.so[0m
+[14.534s] [ 45%] Built target rm_autonomy_interfaces__rosidl_typesupport_introspection_c
+[14.751s] [35m[1mScanning dependencies of target rm_autonomy_interfaces__rosidl_typesupport_c[0m
+[14.931s] [ 45%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/all_robot_hp__type_support.cpp.o[0m
+[14.947s] [ 46%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/ally_robot_position__type_support.cpp.o[0m
+[15.312s] [ 47%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/self_state__type_support.cpp.o[0m
+[15.346s] [ 48%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/arena_status__type_support.cpp.o[0m
+[15.451s] [ 48%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/autoaim_communication__type_support.cpp.o[0m
+[15.747s] [ 49%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__type_support.cpp.o[0m
+[15.758s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/game_status__type_support.cpp.o[0m
+[15.910s] [ 51%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/enemy_robot_mark__type_support.cpp.o[0m
+[16.016s] [ 52%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/navigate_command__type_support.cpp.o[0m
+[16.059s] [ 53%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/human_intervention__type_support.cpp.o[0m
+[16.199s] [ 53%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/human_intervention__type_support.cpp.o[0m
+[16.358s] [ 54%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/omni_sensing__type_support.cpp.o[0m
+[16.466s] [ 55%] [32m[1mLinking CXX shared library librm_autonomy_interfaces__rosidl_typesupport_cpp.so[0m
+[16.467s] [ 55%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/omni_sensing__type_support.cpp.o[0m
+[16.740s] [ 56%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/radar_enemy_position__type_support.cpp.o[0m
+[16.966s] [ 57%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/radar_target__type_support.cpp.o[0m
+[17.022s] [ 58%] Built target rm_autonomy_interfaces__rosidl_typesupport_cpp
+[17.135s] [ 59%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/radar_enemy_position__type_support.cpp.o[0m
+[17.188s] [ 59%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/self_state__type_support.cpp.o[0m
+[17.341s] [ 60%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/navigate_command__type_support.cpp.o[0m
+[17.426s] [ 61%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/fire_trigger__type_support.cpp.o[0m
+[17.433s] [ 61%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/radar_target__type_support.cpp.o[0m
+[17.547s] [ 61%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/fire_trigger__type_support.cpp.o[0m
+[17.753s] [ 61%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/invincible_target__type_support.cpp.o[0m
+[18.011s] [ 62%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/rm_autonomy_interfaces/msg/chase_control__type_support.cpp.o[0m
+[18.057s] [ 63%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/invincible_target__type_support.cpp.o[0m
+[18.268s] [ 64%] [32m[1mLinking CXX shared library librm_autonomy_interfaces__rosidl_typesupport_c.so[0m
+[18.298s] [ 65%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/self_state__type_support.cpp.o[0m
+[18.410s] [ 66%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rm_autonomy_interfaces/msg/detail/dds_fastrtps/chase_control__type_support.cpp.o[0m
+[18.538s] [ 67%] Built target rm_autonomy_interfaces__rosidl_typesupport_c
+[18.683s] [ 67%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/fire_trigger__type_support.cpp.o[0m
+[18.700s] [ 68%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/navigate_command__type_support.cpp.o[0m
+[19.484s] [ 69%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/invincible_target__type_support.cpp.o[0m
+[19.484s] [ 70%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rm_autonomy_interfaces/msg/detail/chase_control__type_support.cpp.o[0m
+[20.469s] [ 70%] [32m[1mLinking CXX shared library librm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.313s] [ 71%] Built target rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp
+[21.479s] [35m[1mScanning dependencies of target rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c[0m
+[21.795s] [ 71%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/ally_robot_position__type_support_c.cpp.o[0m
+[21.809s] [ 72%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/all_robot_hp__type_support_c.cpp.o[0m
+[21.871s] [ 73%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/arena_status__type_support_c.cpp.o[0m
+[22.203s] [ 74%] [32m[1mLinking CXX shared library librm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[22.855s] [ 74%] Built target rm_autonomy_interfaces__rosidl_typesupport_introspection_cpp
+[22.987s] [ 75%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__type_support_c.cpp.o[0m
+[23.016s] [ 76%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/human_intervention__type_support_c.cpp.o[0m
+[24.110s] [ 77%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/radar_enemy_position__type_support_c.cpp.o[0m
+[24.121s] [ 77%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/omni_sensing__type_support_c.cpp.o[0m
+[26.725s] [ 78%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/invincible_target__type_support_c.cpp.o[0m
+[27.781s] [ 78%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/chase_control__type_support_c.cpp.o[0m
+[28.875s] [ 79%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/fire_trigger__type_support_c.cpp.o[0m
+[29.930s] [ 79%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/navigate_command__type_support_c.cpp.o[0m
+[31.347s] [ 80%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/self_state__type_support_c.cpp.o[0m
+[32.615s] [ 81%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/radar_target__type_support_c.cpp.o[0m
+[33.626s] [ 81%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/game_status__type_support_c.cpp.o[0m
+[34.828s] [ 82%] [32mBuilding CXX object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rm_autonomy_interfaces/msg/detail/autoaim_communication__type_support_c.cpp.o[0m
+[35.781s] [ 83%] [32m[1mLinking CXX shared library librm_autonomy_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[36.055s] [ 84%] Built target rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c
+[36.089s] [35m[1mScanning dependencies of target rm_autonomy_interfaces[0m
+[36.155s] [ 84%] Built target rm_autonomy_interfaces
+[36.329s] [ 85%] Built target rm_autonomy_interfaces__py
+[36.403s] [35m[1mScanning dependencies of target rm_autonomy_interfaces__python[0m
+[36.570s] [ 86%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_all_robot_hp_s.c.o[0m
+[37.072s] [ 86%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_omni_sensing_s.c.o[0m
+[37.401s] [ 87%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_radar_enemy_position_s.c.o[0m
+[37.932s] [ 88%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_radar_target_s.c.o[0m
+[38.325s] [ 89%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_self_state_s.c.o[0m
+[38.687s] [ 89%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_navigate_command_s.c.o[0m
+[39.141s] [ 90%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_fire_trigger_s.c.o[0m
+[39.477s] [ 91%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_invincible_target_s.c.o[0m
+[39.707s] [ 91%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_chase_control_s.c.o[0m
+[39.927s] [ 92%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_human_intervention_s.c.o[0m
+[40.228s] [ 93%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_enemy_robot_mark_s.c.o[0m
+[40.533s] [ 93%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_game_status_s.c.o[0m
+[40.816s] [ 94%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_autoaim_communication_s.c.o[0m
+[41.101s] [ 95%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_arena_status_s.c.o[0m
+[41.378s] [ 95%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__python.dir/rosidl_generator_py/rm_autonomy_interfaces/msg/_ally_robot_position_s.c.o[0m
+[41.669s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rm_autonomy_interfaces/librm_autonomy_interfaces__python.so[0m
+[41.837s] [ 96%] Built target rm_autonomy_interfaces__python
+[41.923s] [35m[1mScanning dependencies of target rm_autonomy_interfaces__rosidl_typesupport_c__pyext[0m
+[41.936s] [ 97%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rm_autonomy_interfaces/_rm_autonomy_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[42.588s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rm_autonomy_interfaces/rm_autonomy_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[42.721s] [ 97%] Built target rm_autonomy_interfaces__rosidl_typesupport_c__pyext
+[42.755s] [35m[1mScanning dependencies of target rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[42.811s] [ 98%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rm_autonomy_interfaces/_rm_autonomy_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[43.522s] [ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/rm_autonomy_interfaces/rm_autonomy_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[43.738s] [ 98%] Built target rm_autonomy_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[43.787s] [35m[1mScanning dependencies of target rm_autonomy_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[43.860s] [ 99%] [32mBuilding C object CMakeFiles/rm_autonomy_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rm_autonomy_interfaces/_rm_autonomy_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[44.644s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rm_autonomy_interfaces/rm_autonomy_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[44.745s] [100%] Built target rm_autonomy_interfaces__rosidl_typesupport_introspection_c__pyext
+[44.820s] Invoked command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/rm_autonomy_interfaces -- -j8 -l8
+[46.115s] Invoking command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/rm_autonomy_interfaces
+[46.151s] -- Install configuration: "Release"
+[46.151s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces
+[46.152s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg
+[46.153s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail
+[46.153s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__functions.c
+[46.154s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__functions.c
+[46.154s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__functions.c
+[46.155s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__functions.c
+[46.155s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__functions.c
+[46.156s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__functions.c
+[46.157s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__functions.c
+[46.157s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__functions.c
+[46.157s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__functions.c
+[46.157s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__functions.c
+[46.160s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__functions.c
+[46.160s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__functions.c
+[46.161s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__functions.c
+[46.161s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__functions.c
+[46.161s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__functions.c
+[46.163s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_generator_c.so
+[46.164s] -- Set runtime path of "/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_generator_c.so" to ""
+[46.164s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces
+[46.164s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg
+[46.164s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail
+[46.165s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces
+[46.166s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg
+[46.166s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail
+[46.168s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/dds_fastrtps
+[46.168s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces
+[46.168s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg
+[46.169s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail
+[46.169s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__type_support.c
+[46.170s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__type_support.c
+[46.171s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__type_support.c
+[46.171s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__type_support.c
+[46.171s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__type_support.c
+[46.172s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__type_support.c
+[46.173s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__type_support.c
+[46.173s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__type_support.c
+[46.174s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__type_support.c
+[46.175s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__type_support.c
+[46.175s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__type_support.c
+[46.177s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__type_support.c
+[46.177s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__type_support.c
+[46.177s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__type_support.c
+[46.178s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__type_support.c
+[46.179s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_introspection_c.so
+[46.184s] -- Set runtime path of "/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[46.184s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_c.so
+[46.185s] -- Set runtime path of "/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_c.so" to ""
+[46.185s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces
+[46.186s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg
+[46.186s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail
+[46.186s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces
+[46.186s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg
+[46.188s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail
+[46.188s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/ally_robot_position__type_support.cpp
+[46.188s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_enemy_position__type_support.cpp
+[46.189s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/navigate_command__type_support.cpp
+[46.189s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__type_support.cpp
+[46.190s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/arena_status__type_support.cpp
+[46.190s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/omni_sensing__type_support.cpp
+[46.190s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/chase_control__type_support.cpp
+[46.192s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/all_robot_hp__type_support.cpp
+[46.194s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/fire_trigger__type_support.cpp
+[46.194s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/invincible_target__type_support.cpp
+[46.195s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/self_state__type_support.cpp
+[46.195s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/human_intervention__type_support.cpp
+[46.195s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/autoaim_communication__type_support.cpp
+[46.195s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/radar_target__type_support.cpp
+[46.195s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/include/rm_autonomy_interfaces/msg/detail/game_status__type_support.cpp
+[46.195s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.so
+[46.195s] -- Set runtime path of "/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[46.195s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_cpp.so
+[46.196s] -- Set runtime path of "/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/librm_autonomy_interfaces__rosidl_typesupport_cpp.so" to ""
+[46.287s] Compiling '/home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/__init__.py'...
+[46.307s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg
+[46.307s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_invincible_target_s.c
+[46.308s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_self_state_s.c
+[46.308s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_navigate_command_s.c
+[46.308s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_ally_robot_position_s.c
+[46.308s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_chase_control_s.c
+[46.309s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_all_robot_hp_s.c
+[46.310s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_autoaim_communication_s.c
+[46.311s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_human_intervention_s.c
+[46.311s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_radar_enemy_position_s.c
+[46.311s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_fire_trigger_s.c
+[46.311s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_arena_status_s.c
+[46.311s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_enemy_robot_mark_s.c
+[46.312s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_radar_target_s.c
+[46.312s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_game_status_s.c
+[46.312s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/lib/python3.8/site-packages/rm_autonomy_interfaces/msg/_omni_sensing_s.c
+[46.316s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/package.dsv
+[46.317s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_generator_cExport.cmake
+[46.317s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_generator_cExport-release.cmake
+[46.318s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[46.318s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[46.318s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_cExport.cmake
+[46.318s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_cExport-release.cmake
+[46.318s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_generator_cppExport.cmake
+[46.319s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[46.320s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[46.320s] -- Up-to-date: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_cppExport.cmake
+[46.320s] -- Installing: /home/unitree/navigation_ws/install/rm_autonomy_interfaces/share/rm_autonomy_interfaces/cmake/rm_autonomy_interfaces__rosidl_typesupport_cppExport-release.cmake
+[46.334s] Invoked command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/rm_autonomy_interfaces

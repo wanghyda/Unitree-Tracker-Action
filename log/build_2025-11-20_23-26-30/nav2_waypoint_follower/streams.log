@@ -1,0 +1,93 @@
+[0.096s] Invoking command in '/home/unitree/navigation_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/navigation_ws/src/navigation2/nav2_waypoint_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/nav2_waypoint_follower
+[6.056s] -- The C compiler identification is GNU 9.4.0
+[6.056s] -- The CXX compiler identification is GNU 9.4.0
+[6.056s] -- Check for working C compiler: /usr/bin/cc
+[6.056s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.056s] -- Detecting C compiler ABI info
+[6.056s] -- Detecting C compiler ABI info - done
+[6.056s] -- Detecting C compile features
+[6.056s] -- Detecting C compile features - done
+[6.056s] -- Check for working CXX compiler: /usr/bin/c++
+[6.057s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.057s] -- Detecting CXX compiler ABI info
+[6.057s] -- Detecting CXX compiler ABI info - done
+[6.057s] -- Detecting CXX compile features
+[6.057s] -- Detecting CXX compile features - done
+[6.057s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.057s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.057s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.057s] -- Found nav2_common: 0.4.7 (/home/unitree/navigation_ws/install/nav2_common/share/nav2_common/cmake)
+[6.057s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.057s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.058s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.058s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.058s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.058s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.058s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.058s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.058s] -- Looking for pthread.h
+[6.059s] -- Looking for pthread.h - found
+[6.059s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.059s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.060s] -- Looking for pthread_create in pthreads
+[6.060s] -- Looking for pthread_create in pthreads - not found
+[6.060s] -- Looking for pthread_create in pthread
+[6.060s] -- Looking for pthread_create in pthread - found
+[6.060s] -- Found Threads: TRUE  
+[6.060s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[6.060s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[6.060s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[6.060s] -- Found nav2_msgs: 0.4.7 (/home/unitree/navigation_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[6.060s] -- Found nav2_util: 0.4.7 (/home/unitree/navigation_ws/install/nav2_util/share/nav2_util/cmake)
+[6.060s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[6.061s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[6.061s] -- Setting build type to Release as none was specified.
+[6.061s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.061s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.061s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.061s] -- Configured cppcheck include dirs: /home/unitree/navigation_ws/src/navigation2/nav2_waypoint_follower/include
+[6.061s] -- Configured cppcheck exclude dirs and/or files: 
+[6.061s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.061s] -- Configured cpplint exclude dirs and/or files: 
+[6.061s] -- Added test 'lint_cmake' to check CMake code style
+[6.061s] -- Added test 'uncrustify' to check C / C++ code style
+[6.062s] -- Configured uncrustify additional arguments: 
+[6.062s] -- Added test 'xmllint' to check XML markup files
+[6.062s] -- Configuring done
+[6.062s] -- Generating done
+[6.062s] -- Build files have been written to: /home/unitree/navigation_ws/build/nav2_waypoint_follower
+[6.071s] Invoked command in '/home/unitree/navigation_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/navigation_ws/src/navigation2/nav2_waypoint_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/nav2_waypoint_follower
+[6.071s] Invoking command in '/home/unitree/navigation_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/navigation_ws/build/nav2_waypoint_follower -- -j8 -l8
+[8.130s] [35m[1mScanning dependencies of target waypoint_follower_core[0m
+[8.130s] [ 25%] [32mBuilding CXX object CMakeFiles/waypoint_follower_core.dir/src/waypoint_follower.cpp.o[0m
+[29.340s] [ 50%] [32m[1mLinking CXX shared library libwaypoint_follower_core.so[0m
+[29.720s] [ 50%] Built target waypoint_follower_core
+[29.747s] [35m[1mScanning dependencies of target waypoint_follower[0m
+[29.832s] [ 75%] [32mBuilding CXX object CMakeFiles/waypoint_follower.dir/src/main.cpp.o[0m
+[34.638s] [100%] [32m[1mLinking CXX executable waypoint_follower[0m
+[35.029s] [100%] Built target waypoint_follower
+[35.059s] Invoked command in '/home/unitree/navigation_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/navigation_ws/build/nav2_waypoint_follower -- -j8 -l8
+[35.129s] Invoking command in '/home/unitree/navigation_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/navigation_ws/build/nav2_waypoint_follower
+[35.152s] -- Install configuration: "Release"
+[35.153s] -- Execute custom install script
+[35.154s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so
+[35.181s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/lib/nav2_waypoint_follower/waypoint_follower
+[35.213s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/waypoint_follower.hpp
+[35.235s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/package_run_dependencies/nav2_waypoint_follower
+[35.259s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/parent_prefix_path/nav2_waypoint_follower
+[35.282s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.sh
+[35.304s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.dsv
+[35.327s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.sh
+[35.359s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.dsv
+[35.385s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.bash
+[35.415s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.sh
+[35.444s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.zsh
+[35.467s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.dsv
+[35.495s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.dsv
+[35.518s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/packages/nav2_waypoint_follower
+[35.541s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.565s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig.cmake
+[35.590s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig-version.cmake
+[35.614s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.xml
+[35.646s] Invoked command in '/home/unitree/navigation_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/navigation_ws/build/nav2_waypoint_follower

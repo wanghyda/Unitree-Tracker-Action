@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/unitree/navigation_ws/build/linefit_ground_segmentation_ros/ground_segmentation_node" "TARGETS" "ground_segmentation_node" "DESTINATION" "lib/linefit_ground_segmentation_ros")

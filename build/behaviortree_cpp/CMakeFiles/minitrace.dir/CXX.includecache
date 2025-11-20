@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/unitree/navigation_ws/src/autonomy/BehaviorTree.CPP/3rdparty/minitrace/minitrace.cpp
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+atomic
+-
+windows.h
+-
+signal.h
+-
+pthread.h
+-
+sys/time.h
+-
+unistd.h
+-
+inttypes.h
+-
+minitrace.h
+/home/unitree/navigation_ws/src/autonomy/BehaviorTree.CPP/3rdparty/minitrace/minitrace.h
+
+/home/unitree/navigation_ws/src/autonomy/BehaviorTree.CPP/3rdparty/minitrace/minitrace.h
+inttypes.h
+-
+minitrace_export.h
+/home/unitree/navigation_ws/src/autonomy/BehaviorTree.CPP/3rdparty/minitrace/minitrace_export.h
+

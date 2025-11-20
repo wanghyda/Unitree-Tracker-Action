@@ -1,0 +1,200 @@
+[0.174s] Invoking command in '/home/unitree/navigation_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/nav_2d_msgs
+[0.322s] -- The C compiler identification is GNU 9.4.0
+[0.464s] -- The CXX compiler identification is GNU 9.4.0
+[0.480s] -- Check for working C compiler: /usr/bin/cc
+[0.699s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.699s] -- Detecting C compiler ABI info
+[0.899s] -- Detecting C compiler ABI info - done
+[0.913s] -- Detecting C compile features
+[0.915s] -- Detecting C compile features - done
+[0.926s] -- Check for working CXX compiler: /usr/bin/c++
+[1.166s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.169s] -- Detecting CXX compiler ABI info
+[1.397s] -- Detecting CXX compiler ABI info - done
+[1.424s] -- Detecting CXX compile features
+[1.425s] -- Detecting CXX compile features - done
+[1.425s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.502s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.502s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.083s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.108s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.356s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.416s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.596s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.744s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.822s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.221s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.733s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.933s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.062s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.069s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.197s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.198s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.198s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.198s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[4.273s] -- Found PythonExtra: .so  
+[4.510s] -- Configuring done
+[4.678s] -- Generating done
+[4.685s] -- Build files have been written to: /home/unitree/navigation_ws/build/nav_2d_msgs
+[4.708s] Invoked command in '/home/unitree/navigation_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/nav_2d_msgs
+[4.719s] Invoking command in '/home/unitree/navigation_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/nav_2d_msgs -- -j8 -l8
+[4.903s] [35m[1mScanning dependencies of target nav_2d_msgs__cpp[0m
+[4.920s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_generator_c[0m
+[4.998s] [  1%] Built target nav_2d_msgs__cpp
+[5.001s] [  2%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__functions.c.o[0m
+[5.003s] [  4%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__functions.c.o[0m
+[5.027s] [  5%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c.o[0m
+[5.031s] [  7%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__functions.c.o[0m
+[5.075s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[5.099s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_cpp[0m
+[5.100s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_cpp[0m
+[5.138s] [  8%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__functions.c.o[0m
+[5.197s] [ 11%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/path2_d__type_support.cpp.o[0m
+[5.198s] [ 11%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[5.248s] [ 12%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/path2_d__type_support.cpp.o[0m
+[5.422s] [ 14%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c.o[0m
+[5.483s] [ 15%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp.o[0m
+[5.674s] [ 16%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp.o[0m
+[5.730s] [ 18%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp.o[0m
+[5.972s] [ 19%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp.o[0m
+[6.001s] [ 21%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_generator_c.so[0m
+[6.378s] [ 22%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[6.554s] [ 23%] Built target nav_2d_msgs__rosidl_generator_c
+[6.714s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_c[0m
+[6.982s] [ 25%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[7.080s] [ 26%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp.o[0m
+[7.349s] [ 28%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[7.382s] [ 29%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[7.695s] [ 30%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[7.727s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[7.819s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[7.969s] [ 35%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[8.035s] [ 36%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[8.295s] [ 38%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_c.so[0m
+[8.715s] [ 39%] Built target nav_2d_msgs__rosidl_typesupport_c
+[8.773s] [ 40%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[8.824s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_c[0m
+[8.826s] [ 42%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[8.943s] [ 43%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/path2_d__type_support.c.o[0m
+[9.136s] [ 45%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d32__type_support.c.o[0m
+[9.180s] [ 46%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c.o[0m
+[9.376s] [ 47%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d__type_support.c.o[0m
+[9.506s] [ 49%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d32__type_support.c.o[0m
+[9.619s] [ 50%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.749s] [ 52%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c.o[0m
+[9.795s] [ 53%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d32__type_support.cpp.o[0m
+[9.916s] [ 54%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d_stamped__type_support.cpp.o[0m
+[9.927s] [ 56%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d32__type_support.cpp.o[0m
+[9.939s] [ 57%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d__type_support.cpp.o[0m
+[10.220s] [ 59%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.276s] [ 60%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[10.459s] [ 61%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d_stamped__type_support.cpp.o[0m
+[10.523s] [ 63%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[11.238s] [ 64%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_cpp.so[0m
+[11.528s] [ 66%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[13.879s] [ 67%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[15.049s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[15.150s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_c[0m
+[15.300s] [ 70%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/path2_d__type_support_c.cpp.o[0m
+[15.312s] [ 71%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d32__type_support_c.cpp.o[0m
+[15.378s] [ 73%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d__type_support_c.cpp.o[0m
+[15.386s] [ 74%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support_c.cpp.o[0m
+[15.427s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d32__type_support_c.cpp.o[0m
+[15.436s] [ 77%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support_c.cpp.o[0m
+[19.310s] [ 78%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[20.201s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[20.348s] [35m[1mScanning dependencies of target nav_2d_msgs[0m
+[20.473s] [ 80%] Built target nav_2d_msgs
+[20.823s] [ 81%] Built target nav_2d_msgs__py
+[21.062s] [35m[1mScanning dependencies of target nav_2d_msgs__python[0m
+[21.298s] [ 83%] [32mBuilding C object CMakeFiles/nav_2d_msgs__python.dir/rosidl_generator_py/nav_2d_msgs/msg/_path2_d_s.c.o[0m
+[21.312s] [ 84%] [32mBuilding C object CMakeFiles/nav_2d_msgs__python.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d32_s.c.o[0m
+[21.345s] [ 85%] [32mBuilding C object CMakeFiles/nav_2d_msgs__python.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d_stamped_s.c.o[0m
+[22.150s] [ 87%] [32mBuilding C object CMakeFiles/nav_2d_msgs__python.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_stamped_s.c.o[0m
+[22.263s] [ 88%] [32mBuilding C object CMakeFiles/nav_2d_msgs__python.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d32_s.c.o[0m
+[22.413s] [ 90%] [32mBuilding C object CMakeFiles/nav_2d_msgs__python.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_s.c.o[0m
+[23.485s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/libnav_2d_msgs__python.so[0m
+[23.922s] [ 91%] Built target nav_2d_msgs__python
+[24.141s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[24.161s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_c__pyext[0m
+[24.176s] [35m[1mScanning dependencies of target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[24.408s] [ 92%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.449s] [ 94%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[24.481s] [ 95%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[25.807s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[26.077s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[26.082s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[26.183s] [100%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[26.361s] [100%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[26.428s] [100%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[26.547s] Invoked command in '/home/unitree/navigation_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/nav_2d_msgs -- -j8 -l8
+[29.238s] Invoking command in '/home/unitree/navigation_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/nav_2d_msgs
+[33.059s] -- Install configuration: "Release"
+[33.060s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[33.060s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[33.060s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[33.060s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__functions.c
+[33.060s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__functions.c
+[33.060s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__functions.c
+[33.060s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c
+[33.060s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c
+[33.060s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__functions.c
+[33.061s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[33.061s] -- Set runtime path of "/home/unitree/navigation_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so" to ""
+[33.061s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[33.061s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[33.061s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[33.061s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[33.065s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[33.073s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[33.074s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/dds_fastrtps
+[33.074s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[33.074s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[33.074s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[33.074s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.c
+[33.074s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.c
+[33.075s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c
+[33.075s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.c
+[33.075s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c
+[33.075s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.c
+[33.075s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[33.075s] -- Set runtime path of "/home/unitree/navigation_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so" to ""
+[33.075s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[33.075s] -- Set runtime path of "/home/unitree/navigation_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so" to ""
+[33.076s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[33.076s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[33.076s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[33.076s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs
+[33.076s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg
+[33.076s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail
+[33.076s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp
+[33.076s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp
+[33.076s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp
+[33.076s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/path2_d__type_support.cpp
+[33.077s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp
+[33.077s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/include/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp
+[33.077s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[33.077s] -- Set runtime path of "/home/unitree/navigation_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[33.077s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[33.077s] -- Set runtime path of "/home/unitree/navigation_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so" to ""
+[33.077s] Compiling '/home/unitree/navigation_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/__init__.py'...
+[33.077s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg
+[33.077s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[33.078s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[33.078s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[33.078s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[33.078s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[33.078s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/lib/python3.8/site-packages/nav_2d_msgs/msg/_path2_d_s.c
+[33.078s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[33.078s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cExport.cmake
+[33.078s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cExport-release.cmake
+[33.078s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[33.079s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[33.079s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[33.079s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-release.cmake
+[33.079s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_generator_cppExport.cmake
+[33.079s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[33.079s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[33.079s] -- Up-to-date: /home/unitree/navigation_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[33.079s] -- Installing: /home/unitree/navigation_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-release.cmake
+[33.129s] Invoked command in '/home/unitree/navigation_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/nav_2d_msgs

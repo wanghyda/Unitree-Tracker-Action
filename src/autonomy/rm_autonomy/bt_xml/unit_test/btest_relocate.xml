@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="BehaviorTree">
+    <BehaviorTree ID="BehaviorTree">
+        <Sequence>
+            <GetCurrentLocationActionBTNode current_location="{current_location}" />
+            <SubRelocationPoseActionBTNode 
+            topic_name="/pcl_pose"
+            relocation_pose="{relocation_pose}"/>
+            <PubRelocatePoseActionBTNode 
+            current_location="{current_location}"
+            relocation_pose="{relocation_pose}"/>
+        </Sequence>
+    </BehaviorTree>
+</root>

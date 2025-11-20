@@ -1,0 +1,117 @@
+[0.089s] Invoking command in '/home/unitree/navigation_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/navigation_ws/src/navigation2/nav2_lifecycle_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/nav2_lifecycle_manager
+[0.202s] -- The C compiler identification is GNU 9.4.0
+[0.347s] -- The CXX compiler identification is GNU 9.4.0
+[0.361s] -- Check for working C compiler: /usr/bin/cc
+[0.539s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.542s] -- Detecting C compiler ABI info
+[0.729s] -- Detecting C compiler ABI info - done
+[0.758s] -- Detecting C compile features
+[0.760s] -- Detecting C compile features - done
+[0.770s] -- Check for working CXX compiler: /usr/bin/c++
+[0.996s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.998s] -- Detecting CXX compiler ABI info
+[1.187s] -- Detecting CXX compiler ABI info - done
+[1.203s] -- Detecting CXX compile features
+[1.203s] -- Detecting CXX compile features - done
+[1.209s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.268s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.268s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.621s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.675s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.733s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.746s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.993s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.056s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.355s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[2.375s] -- Found nav2_common: 0.4.7 (/home/unitree/navigation_ws/install/nav2_common/share/nav2_common/cmake)
+[2.377s] -- Found nav2_msgs: 0.4.7 (/home/unitree/navigation_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.915s] -- Found nav2_util: 0.4.7 (/home/unitree/navigation_ws/install/nav2_util/share/nav2_util/cmake)
+[3.055s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.059s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.062s] -- Looking for pthread.h
+[3.275s] -- Looking for pthread.h - found
+[3.276s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.467s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.467s] -- Looking for pthread_create in pthreads
+[3.601s] -- Looking for pthread_create in pthreads - not found
+[3.602s] -- Looking for pthread_create in pthread
+[3.832s] -- Looking for pthread_create in pthread - found
+[3.836s] -- Found Threads: TRUE  
+[4.577s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[4.584s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[4.846s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[4.863s] -- Setting build type to Release as none was specified.
+[5.282s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.443s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.449s] -- Found ament_cmake_pytest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)
+[5.462s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.471s] -- Check if compiler accepts -pthread
+[5.665s] -- Check if compiler accepts -pthread - yes
+[5.877s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.877s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.877s] -- Configured cppcheck include dirs: /home/unitree/navigation_ws/src/navigation2/nav2_lifecycle_manager/include
+[5.877s] -- Configured cppcheck exclude dirs and/or files: 
+[5.883s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.883s] -- Configured cpplint exclude dirs and/or files: 
+[5.883s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.884s] -- Added test 'lint_cmake' to check CMake code style
+[5.884s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.885s] -- Added test 'uncrustify' to check C / C++ code style
+[5.885s] -- Configured uncrustify additional arguments: 
+[5.887s] -- Added test 'xmllint' to check XML markup files
+[5.913s] -- Configuring done
+[6.059s] -- Generating done
+[6.064s] -- Build files have been written to: /home/unitree/navigation_ws/build/nav2_lifecycle_manager
+[6.129s] Invoked command in '/home/unitree/navigation_ws/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/navigation_ws/src/navigation2/nav2_lifecycle_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/nav2_lifecycle_manager
+[6.132s] Invoking command in '/home/unitree/navigation_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/navigation_ws/build/nav2_lifecycle_manager -- -j8 -l8
+[7.455s] [35m[1mScanning dependencies of target nav2_lifecycle_manager_core[0m
+[7.455s] [35m[1mScanning dependencies of target gtest[0m
+[7.456s] [35m[1mScanning dependencies of target gtest_main[0m
+[7.460s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[7.461s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.461s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager.cpp.o[0m
+[7.462s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager_client.cpp.o[0m
+[9.936s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.212s] [ 45%] Built target gtest_main
+[21.399s] [ 54%] [32m[1mLinking CXX shared library libnav2_lifecycle_manager_core.so[0m
+[22.094s] [ 54%] Built target nav2_lifecycle_manager_core
+[28.199s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[28.283s] [ 63%] Built target gtest
+[28.309s] [35m[1mScanning dependencies of target lifecycle_manager[0m
+[28.387s] [ 72%] [32mBuilding CXX object CMakeFiles/lifecycle_manager.dir/src/main.cpp.o[0m
+[32.220s] [ 81%] [32m[1mLinking CXX executable lifecycle_manager[0m
+[32.564s] [ 81%] Built target lifecycle_manager
+[32.591s] [35m[1mScanning dependencies of target test_lifecycle_gtest[0m
+[32.700s] [ 90%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_gtest.dir/test_lifecycle_manager.cpp.o[0m
+[38.905s] [100%] [32m[1mLinking CXX executable test_lifecycle_gtest[0m
+[39.373s] [100%] Built target test_lifecycle_gtest
+[39.402s] Invoked command in '/home/unitree/navigation_ws/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/navigation_ws/build/nav2_lifecycle_manager -- -j8 -l8
+[39.470s] Invoking command in '/home/unitree/navigation_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/navigation_ws/build/nav2_lifecycle_manager
+[39.488s] -- Install configuration: "Release"
+[39.488s] -- Execute custom install script
+[39.489s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so
+[39.510s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager
+[39.534s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager.hpp
+[39.554s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager_client.hpp
+[39.575s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.sh
+[39.601s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.dsv
+[39.621s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/package_run_dependencies/nav2_lifecycle_manager
+[39.640s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/parent_prefix_path/nav2_lifecycle_manager
+[39.661s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.sh
+[39.681s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.dsv
+[39.701s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.sh
+[39.721s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.dsv
+[39.742s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.bash
+[39.762s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.sh
+[39.783s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.zsh
+[39.803s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.dsv
+[39.824s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.dsv
+[39.845s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/packages/nav2_lifecycle_manager
+[39.867s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.887s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[39.907s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.929s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig.cmake
+[39.950s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig-version.cmake
+[39.970s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.xml
+[40.001s] Invoked command in '/home/unitree/navigation_ws/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/nav2_util:/home/unitree/navigation_ws/install/nav2_msgs:/home/unitree/navigation_ws/install/nav2_common:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/nav2_util/lib:/home/unitree/navigation_ws/install/nav2_msgs/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/navigation_ws/build/nav2_lifecycle_manager

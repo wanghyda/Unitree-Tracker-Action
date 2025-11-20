@@ -1,0 +1,4 @@
+[0.133s] Invoking command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces -DCMAKE_BUILD_TYPE=Release --force-configure -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/rm_autonomy_interfaces
+[0.160s] CMake Error: The source directory "/home/unitree/navigation_ws/build/rm_autonomy_interfaces/--force-configure" does not exist.
+[0.162s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.213s] Invoked command in '/home/unitree/navigation_ws/build/rm_autonomy_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/autonomy/rm_autonomy_interfaces -DCMAKE_BUILD_TYPE=Release --force-configure -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/rm_autonomy_interfaces

@@ -1,0 +1,4 @@
+Invoking command in '/home/unitree/navigation_ws/build/cmd_vel_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/cmd_vel_processor -- -j8 -l8
+Invoked command in '/home/unitree/navigation_ws/build/cmd_vel_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/cmd_vel_processor -- -j8 -l8
+Invoking command in '/home/unitree/navigation_ws/build/cmd_vel_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/cmd_vel_processor
+Invoked command in '/home/unitree/navigation_ws/build/cmd_vel_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/cmd_vel_processor

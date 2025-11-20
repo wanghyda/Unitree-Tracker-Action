@@ -1,0 +1,1 @@
+Invoking command in '/home/unitree/navigation_ws/build/cmd_vel_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/cmd_vel_processor -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/cmd_vel_processor

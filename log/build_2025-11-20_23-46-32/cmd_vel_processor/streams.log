@@ -1,0 +1,4 @@
+[0.136s] Invoking command in '/home/unitree/navigation_ws/build/cmd_vel_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/cmd_vel_processor -DCMAKE_BUILD_TYPE=Release --force-configure -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/cmd_vel_processor
+[0.161s] CMake Error: The source directory "/home/unitree/navigation_ws/build/cmd_vel_processor/--force-configure" does not exist.
+[0.162s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.202s] Invoked command in '/home/unitree/navigation_ws/build/cmd_vel_processor' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/cmd_vel_processor -DCMAKE_BUILD_TYPE=Release --force-configure -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/cmd_vel_processor

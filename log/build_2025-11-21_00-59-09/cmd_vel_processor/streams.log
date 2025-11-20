@@ -1,0 +1,23 @@
+[0.130s] Invoking command in '/home/unitree/navigation_ws/build/cmd_vel_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/cmd_vel_processor -- -j8 -l8
+[0.494s] [100%] Built target cmd_vel_subscriber
+[0.565s] Invoked command in '/home/unitree/navigation_ws/build/cmd_vel_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/cmd_vel_processor -- -j8 -l8
+[0.827s] Invoking command in '/home/unitree/navigation_ws/build/cmd_vel_processor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/cmd_vel_processor
+[0.923s] -- Install configuration: ""
+[0.932s] -- Execute custom install script
+[0.932s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/lib/cmd_vel_processor/cmd_vel_subscriber
+[0.932s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/ament_index/resource_index/package_run_dependencies/cmd_vel_processor
+[0.934s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/ament_index/resource_index/parent_prefix_path/cmd_vel_processor
+[0.935s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/cmd_vel_processor/environment/ament_prefix_path.sh
+[0.935s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/cmd_vel_processor/environment/ament_prefix_path.dsv
+[0.936s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/cmd_vel_processor/environment/path.sh
+[0.942s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/cmd_vel_processor/environment/path.dsv
+[0.943s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/cmd_vel_processor/local_setup.bash
+[0.943s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/cmd_vel_processor/local_setup.sh
+[0.943s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/cmd_vel_processor/local_setup.zsh
+[0.943s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/cmd_vel_processor/local_setup.dsv
+[0.943s] -- Symlinking: /home/unitree/navigation_ws/install/cmd_vel_processor/share/cmd_vel_processor/package.dsv
+[1.011s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/ament_index/resource_index/packages/cmd_vel_processor
+[1.011s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/cmd_vel_processor/cmake/cmd_vel_processorConfig.cmake
+[1.011s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/cmd_vel_processor/cmake/cmd_vel_processorConfig-version.cmake
+[1.012s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/cmd_vel_processor/share/cmd_vel_processor/package.xml
+[1.096s] Invoked command in '/home/unitree/navigation_ws/build/cmd_vel_processor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/cmd_vel_processor

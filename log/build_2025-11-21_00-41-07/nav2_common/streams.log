@@ -1,0 +1,42 @@
+[0.141s] Invoking command in '/home/unitree/navigation_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/navigation2/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/nav2_common
+[0.246s] -- Found ament_cmake_core: 0.9.12 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[0.256s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.256s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.624s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.635s] -- Found ament_cmake_python: 0.9.12 (/opt/ros/foxy/share/ament_cmake_python/cmake)
+[0.871s] -- Configuring done
+[0.873s] -- Generating done
+[0.875s] -- Build files have been written to: /home/unitree/navigation_ws/build/nav2_common
+[0.881s] Invoked command in '/home/unitree/navigation_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/navigation2/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/nav2_common
+[0.891s] Invoking command in '/home/unitree/navigation_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/nav2_common -- -j8 -l8
+[4.487s] Invoked command in '/home/unitree/navigation_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/nav2_common -- -j8 -l8
+[4.755s] Invoking command in '/home/unitree/navigation_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/nav2_common
+[4.852s] -- Install configuration: ""
+[4.852s] -- Execute custom install script
+[4.852s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[4.853s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[4.853s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py
+[4.853s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py
+[4.853s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py
+[4.853s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py
+[4.853s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py
+[4.853s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[4.853s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[4.853s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[4.854s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[4.854s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[4.854s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[4.854s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[4.854s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[4.854s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[4.854s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[4.855s] -- Symlinking: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/package.dsv
+[4.882s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[4.882s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[4.883s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[4.883s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[4.884s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/package.xml
+[4.884s] -- Up-to-date symlink: /home/unitree/navigation_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[4.988s] Listing '/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common'...
+[4.988s] Listing '/home/unitree/navigation_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch'...
+[5.013s] Invoked command in '/home/unitree/navigation_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/nav2_common

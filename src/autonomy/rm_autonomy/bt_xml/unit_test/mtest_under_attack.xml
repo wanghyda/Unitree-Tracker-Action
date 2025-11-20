@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="BehaviorTree">
+    <BehaviorTree ID="BehaviorTree">
+        <Sequence>
+            <SubSelfStateActionBTNode topic_name="/self_state"
+                                        self_state="{self_state}" decision_set="{decision_set}" />
+            <SubGameStatusActionBTNode topic_name="/game_status"
+                                        game_status="{game_status}"/>
+            <SubArenaStatusActionBTNode topic_name="/arena_status"
+                                        arena_status="{arena_status}"/>
+            <SubAllRobotHPActionBTNode topic_name="/all_robot_hp" all_robot_hp="{all_robot_hp}"/>
+            <SubGimbalYawActionBTNode topic_name="/gimbal1_yaw"
+                gimbal1_yaw="{gimbal1_yaw}" />
+            <SubAllyRobotPositionActionBTNode topic_name="/ally_robot_position"
+                                            ally_robot_position="{ally_robot_position}"/>
+            <SituationJudgementActionBTNode self_state="{self_state}"
+                                            game_status="{game_status}"
+                                            all_robot_hp="{all_robot_hp}"
+                                            ally_robot_position="{ally_robot_position}"
+                                            hero_y="{hero_y}"
+                                            blue_outpost_hp="{blue_outpost_hp}"
+                                            blue_base_hp="{blue_base_hp}"
+                                            red_outpost_hp="{red_outpost_hp}"
+                                            red_base_hp="{red_base_hp}"
+                                            remain_time="{remain_time}"
+                                            energy_left="{energy_left}"/>
+            <!-- <IsGameStartCondition message="{game_status}"/> -->
+            <GetCurrentLocationActionBTNode current_location="{current_location}" />
+            <SubHumanInterventionActionBTNode topic_name="/human_intervention"
+                    dart_value="{dart_value}"
+                    current_location="{current_location}"
+                    human_intervention_pose="{human_intervention_pose}" />
+
+            <GetCurrentLocationActionBTNode current_location="{current_location}" />
+            <GetCurrentHeightAction current_location="{current_location}"
+                        slide_area_1="{red_slide}"
+                        slide_area_2="{blue_slide}"
+                        slide_area_3="{red_castle_area}"
+                        slide_area_4="{blue_castle_area}"
+                        slide="{slide}"/>  
+            <GetCurrentHeightAction current_location="{current_location}"
+                        slide_area_1="{red_outpost_area}"
+                        slide_area_2="{red_outpost_area}"
+                        slide_area_3="{blue_outpost_area}"
+                        slide_area_4="{blue_outpost_area}"
+                        slide="{outpost}"/>  
+            <Fallback>
+                <Precondition if="slide==0" else="FAILURE">
+                    <PubNavigateCommandActionBTNode
+                    spin_speed="0.7"
+                    scap_state="0" 
+                    align_chassis_big_yaw="0"/>
+                </Precondition>
+                <PubNavigateCommandActionBTNode
+                    spin_speed="0.0"
+                    scap_state="0" 
+                    align_chassis_big_yaw="0"/>
+            </Fallback> 
+
+            <Fallback>
+                <Precondition if="outpost==0" else="FAILURE">
+                    <PubGimbalPitchActionBTNode message="0"/>
+                </Precondition>
+                    <PubGimbalPitchActionBTNode message="1"/>
+            </Fallback> 
+
+            <SubTree ID="send_goal" goal_pose="{blue_defend_1}" />
+            <Delay delay_msec="4000">
+                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+            </Delay>
+                <SubTree ID="send_goal" goal_pose="{blue_defend_2}"/>
+                       
+        </Sequence>
+    </BehaviorTree>
+
+    <BehaviorTree ID="send_goal">
+        <ReactiveSequence>
+            <Sequence>
+                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                <GetSafeDirectionBTNode topic_name="/global_costmap/costmap" current_location="{current_location}"
+                                         safe_direction="{safe_direction}"/>
+            </Sequence>
+            <Inverter>
+                <KeepRunningUntilFailure>
+                    <Inverter>
+                        <Fallback>
+                            <ReactiveSequence>
+                                <SendGoalActionBTNode goal_pose="{goal_pose}" />
+                                <GoalReachedActionAs goal_pose="{goal_pose}"
+                                    current_location="{current_location}"/>
+                            </ReactiveSequence>
+                            <Inverter>
+                                <Sequence>
+                                    <PubVelBTNode safe_direction="{safe_direction}"/>
+                                    <Delay delay_msec="500">
+                                        <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                                    </Delay>
+                                </Sequence>
+                            </Inverter>
+                        </Fallback>
+                    </Inverter>
+                </KeepRunningUntilFailure>
+            </Inverter>
+        </ReactiveSequence>
+    </BehaviorTree>
+</root>

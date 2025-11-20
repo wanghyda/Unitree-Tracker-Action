@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/unitree/navigation_ws/build/rm_autonomy_interfaces/librm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp.so" "TARGETS" "rm_autonomy_interfaces__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

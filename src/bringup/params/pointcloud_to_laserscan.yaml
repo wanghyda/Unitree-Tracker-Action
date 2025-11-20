@@ -1,0 +1,20 @@
+/pointcloud_to_laserscan:
+  ros__parameters:
+    target_frame: 'cloud_registered_body',
+    transform_tolerance: 0.01,
+    min_height: 0.2,
+    max_height: 1.0,
+    angle_min: -3.1415,  # -M_PI
+    angle_max: 3.1415,  # M_PI
+    angle_increment: 0.0174,  # 2*M_PI/360.0
+    scan_time: 0.3333,
+    range_min: 0.5,
+    range_max: 100.0,
+    use_inf: True,
+    inf_epsilon: 1.0
+
+/dummy_pointcloud_publisher:
+  ros__parameters:
+    cloud_frame_id: 'cloud'
+    cloud_extent: 2.0
+    cloud_size: 500

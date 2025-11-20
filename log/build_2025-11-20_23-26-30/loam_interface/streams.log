@@ -1,0 +1,183 @@
+[0.027s] Invoking command in '/home/unitree/navigation_ws/build/loam_interface': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/livox_ros_driver2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/navigation_ws/src/localization/loam_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/loam_interface
+[0.141s] -- The C compiler identification is GNU 9.4.0
+[0.224s] -- The CXX compiler identification is GNU 9.4.0
+[0.231s] -- Check for working C compiler: /usr/bin/cc
+[0.366s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.366s] -- Detecting C compiler ABI info
+[0.515s] -- Detecting C compiler ABI info - done
+[0.532s] -- Detecting C compile features
+[0.532s] -- Detecting C compile features - done
+[0.537s] -- Check for working CXX compiler: /usr/bin/c++
+[0.685s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.687s] -- Detecting CXX compiler ABI info
+[0.837s] -- Detecting CXX compiler ABI info - done
+[0.853s] -- Detecting CXX compile features
+[0.853s] -- Detecting CXX compile features - done
+[0.857s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.906s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.906s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.247s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.301s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.369s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.381s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.558s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.612s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.745s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.884s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.890s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.012s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.014s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.016s] -- Looking for pthread.h
+[2.149s] -- Looking for pthread.h - found
+[2.150s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.293s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.294s] -- Looking for pthread_create in pthreads
+[2.417s] -- Looking for pthread_create in pthreads - not found
+[2.418s] -- Looking for pthread_create in pthread
+[2.562s] -- Looking for pthread_create in pthread - found
+[2.563s] -- Found Threads: TRUE  
+[3.352s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[3.768s] -- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)
+[3.949s] -- Checking for module 'eigen3'
+[3.979s] --   Found eigen3, version 3.3.7
+[4.058s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.058s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[4.154s] -- Checking for module 'flann'
+[4.185s] --   Found flann, version 1.9.1
+[4.278s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[4.373s] -- The imported target "vtkParseOGLExt" references the file
+[4.373s]    "/usr/bin/vtkParseOGLExt-7.1"
+[4.373s] but this file does not exist.  Possible reasons include:
+[4.373s] * The file was deleted, renamed, or moved to another location.
+[4.373s] * An install or uninstall procedure did not complete successfully.
+[4.373s] * The installation package was faulty and contained
+[4.373s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.374s] but not all the files it references.
+[4.374s] 
+[4.374s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[4.374s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[4.374s] but this file does not exist.  Possible reasons include:
+[4.374s] * The file was deleted, renamed, or moved to another location.
+[4.374s] * An install or uninstall procedure did not complete successfully.
+[4.374s] * The installation package was faulty and contained
+[4.374s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.374s] but not all the files it references.
+[4.374s] 
+[4.375s] -- The imported target "vtk" references the file
+[4.375s]    "/usr/bin/vtk"
+[4.375s] but this file does not exist.  Possible reasons include:
+[4.375s] * The file was deleted, renamed, or moved to another location.
+[4.375s] * An install or uninstall procedure did not complete successfully.
+[4.375s] * The installation package was faulty and contained
+[4.375s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.375s] but not all the files it references.
+[4.375s] 
+[4.375s] -- The imported target "pvtk" references the file
+[4.376s]    "/usr/bin/pvtk"
+[4.376s] but this file does not exist.  Possible reasons include:
+[4.376s] * The file was deleted, renamed, or moved to another location.
+[4.376s] * An install or uninstall procedure did not complete successfully.
+[4.376s] * The installation package was faulty and contained
+[4.376s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[4.376s] but not all the files it references.
+[4.376s] 
+[4.412s] -- Checking for module 'libusb-1.0'
+[4.444s] --   Found libusb-1.0, version 1.0.23
+[4.531s] -- Found USB_10: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[4.656s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.790s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[4.815s] -- Found libusb-1.0: /usr/include  
+[4.828s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.840s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[4.886s] -- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  
+[4.886s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[4.899s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[4.921s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[4.924s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[4.926s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[4.928s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[4.930s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[4.933s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[4.934s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[4.935s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[4.937s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[4.939s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[4.941s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[4.943s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[4.945s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[4.947s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[4.949s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[4.951s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[4.953s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[4.955s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[4.958s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[4.960s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[4.962s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[4.963s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[4.965s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[4.967s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[5.299s] CMake Warning (dev) at CMakeLists.txt:26 (find_package):
+[5.300s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[5.301s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[5.302s]   command to set the policy and suppress this warning.
+[5.302s] 
+[5.302s]   CMake variable PCL_ROOT is set to:
+[5.302s] 
+[5.302s]     /usr
+[5.302s] 
+[5.302s]   For compatibility, CMake is ignoring the variable.
+[5.302s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.303s] 
+[5.862s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.949s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.951s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.953s] -- Configured cppcheck include dirs: /home/unitree/navigation_ws/src/localization/loam_interface/include
+[5.953s] -- Configured cppcheck exclude dirs and/or files: 
+[5.954s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.955s] -- Configured cpplint exclude dirs and/or files: 
+[5.955s] -- Added test 'lint_cmake' to check CMake code style
+[5.956s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.957s] -- Added test 'xmllint' to check XML markup files
+[5.971s] -- Configuring done
+[6.291s] -- Generating done
+[6.296s] -- Build files have been written to: /home/unitree/navigation_ws/build/loam_interface
+[6.347s] Invoked command in '/home/unitree/navigation_ws/build/loam_interface' returned '0': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/livox_ros_driver2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/unitree/navigation_ws/src/localization/loam_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/loam_interface
+[6.352s] Invoking command in '/home/unitree/navigation_ws/build/loam_interface': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/livox_ros_driver2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/navigation_ws/build/loam_interface -- -j8 -l8
+[6.438s] [35m[1mScanning dependencies of target loam_interface_node[0m
+[6.507s] [ 25%] [32mBuilding CXX object CMakeFiles/loam_interface_node.dir/rclcpp_components/node_main_loam_interface_node.cpp.o[0m
+[11.331s] [ 50%] [32m[1mLinking CXX executable loam_interface_node[0m
+[11.588s] [ 50%] Built target loam_interface_node
+[11.612s] [35m[1mScanning dependencies of target loam_interface[0m
+[11.758s] [ 75%] [32mBuilding CXX object CMakeFiles/loam_interface.dir/src/loam_interface.cpp.o[0m
+[46.722s] [100%] [32m[1mLinking CXX shared library libloam_interface.so[0m
+[50.636s] [100%] Built target loam_interface
+[50.663s] Invoked command in '/home/unitree/navigation_ws/build/loam_interface' returned '0': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/livox_ros_driver2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/unitree/navigation_ws/build/loam_interface -- -j8 -l8
+[50.730s] Invoking command in '/home/unitree/navigation_ws/build/loam_interface': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/livox_ros_driver2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/navigation_ws/build/loam_interface
+[50.755s] -- Install configuration: ""
+[50.756s] -- Execute custom install script
+[50.758s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/lib/loam_interface/loam_interface_node
+[50.785s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/include/loam_interface/loam_interface.hpp
+[50.810s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/environment/library_path.sh
+[50.837s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/environment/library_path.dsv
+[50.859s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/lib/libloam_interface.so
+[50.884s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/launch/loam_interface_launch.py
+[50.909s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/ament_index/resource_index/package_run_dependencies/loam_interface
+[50.933s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/ament_index/resource_index/parent_prefix_path/loam_interface
+[50.957s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/environment/ament_prefix_path.sh
+[50.980s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/environment/ament_prefix_path.dsv
+[51.005s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/environment/path.sh
+[51.030s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/environment/path.dsv
+[51.061s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/local_setup.bash
+[51.085s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/local_setup.sh
+[51.108s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/local_setup.zsh
+[51.130s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/local_setup.dsv
+[51.154s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/package.dsv
+[51.180s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/ament_index/resource_index/packages/loam_interface
+[51.205s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/ament_index/resource_index/rclcpp_components/loam_interface
+[51.229s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.253s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.278s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[51.305s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig.cmake
+[51.332s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig-version.cmake
+[51.359s] -- Symlinking: /home/unitree/navigation_ws/install/loam_interface/share/loam_interface/package.xml
+[51.394s] Invoked command in '/home/unitree/navigation_ws/build/loam_interface' returned '0': AMENT_PREFIX_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/unitree/cyclonedds_ws/install/cyclonedds:/opt/ros/foxy LD_LIBRARY_PATH=/home/unitree/navigation_ws/install/livox_ros_driver2/lib:/usr/local/cuda-11.4/lib64:/usr/local/lib:/home/unitree/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/unitree/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/unitree/navigation_ws/install/livox_ros_driver2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/unitree/navigation_ws/build/loam_interface

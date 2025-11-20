@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="BehaviorTree">
+    <BehaviorTree ID="BehaviorTree">
+        <Sequence>
+            <Sequence>
+                <SubSelfStateActionBTNode topic_name="/self_state"
+                    self_state="{self_state}" />
+                <SubGameStatusActionBTNode topic_name="/game_status"
+                    game_status="{game_status}" />
+                <SubArenaStatusActionBTNode topic_name="/arena_status"
+                    arena_status="{arena_status}" />
+                <!--SubAllRobotHPActionBTNode topic_name="/all_robot_hp"
+                all_robot_hp="{all_robot_hp}" /-->
+                <SubAllyRobotPositionActionBTNode topic_name="/ally_robot_position"
+                    ally_robot_position="{ally_robot_position}" />
+                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                <!--SubRadarEnemyPositionActionBTNode topic_name="/radar_enemy_position"
+                radar_enemy_position="{radar_enemy_position}" /-->
+                <!--SubGimbalYawActionBTNode topic_name="/gimbal2_yaw"
+                gimbal2_yaw="{gimbal2_yaw}" /-->
+                <!--SubAutoaimCommunicationActionBTNode topic_name="/autoaim_communication"
+                current_location="{current_location}"
+                gimbal2_yaw="{gimbal2_yaw}"
+                enemy_autoaim_position="{enemy_autoaim_position}"
+                enemy_autoaim_id="{enemy_autoaim_id}" /-->
+            </Sequence>
+            <IfThenElse>
+                <!-- TODO:write test here-->
+                <Script code="rescue:='2.31;1.01;0;0;0;0;1'"/>
+                <IsSelfHPLowCondition message="{self_state}"
+                    hp_threshold="100" />
+                <Sequence>
+                    <SendGoalActionBTNode goal_pose="{rescue}" />
+                    <PubNavigateCommandActionBTNode spin_speed="0"
+                        scap_state="0" />
+                </Sequence>
+            </IfThenElse>
+        </Sequence>
+    </BehaviorTree>
+</root>

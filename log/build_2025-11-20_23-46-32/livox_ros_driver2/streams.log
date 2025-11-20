@@ -1,0 +1,4 @@
+[0.168s] Invoking command in '/home/unitree/navigation_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/livox_ros_driver2 -DCMAKE_BUILD_TYPE=Release --force-configure -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/livox_ros_driver2
+[0.225s] CMake Error: The source directory "/home/unitree/navigation_ws/build/livox_ros_driver2/--force-configure" does not exist.
+[0.225s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.252s] Invoked command in '/home/unitree/navigation_ws/build/livox_ros_driver2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/livox_ros_driver2 -DCMAKE_BUILD_TYPE=Release --force-configure -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/livox_ros_driver2

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="BehaviorTree">
+    <BehaviorTree ID="BehaviorTree">
+        <Sequence>
+            <ReactiveSequence>
+                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                <PubChasingPositionAction current_location="{current_location}" chasing_goal="{chasing_goal}"/>
+
+                <SendGoalActionBTNode goal_pose="{chasing_goal}" />
+            </ReactiveSequence>
+        </Sequence>
+    </BehaviorTree>
+</root>

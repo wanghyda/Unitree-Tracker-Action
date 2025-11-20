@@ -1,0 +1,26 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found nav2_common: 0.4.7 (/home/unitree/navigation_ws/install/nav2_common/share/nav2_common/cmake)
+-- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+-- Found nav2_costmap_2d: 0.4.7 (/home/unitree/navigation_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found costmap_queue: 0.4.7 (/home/unitree/navigation_ws/install/costmap_queue/share/costmap_queue/cmake)
+-- Found dwb_core: 0.4.7 (/home/unitree/navigation_ws/install/dwb_core/share/dwb_core/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/unitree/navigation_ws/src/navigation2/nav2_dwb_controller/dwb_critics/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/unitree/navigation_ws/build/dwb_critics

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="BehaviorTree">
+    <BehaviorTree ID="BehaviorTree">
+        <Sequence>
+            <SubTree ID="send_goal" goal_pose="{slide_bottom}"/>
+            <SubTree ID="send_goal" goal_pose="{corner}"/>
+            <SubTree ID="send_goal" goal_pose="{cross}"/>
+        </Sequence>
+    </BehaviorTree>
+
+        <BehaviorTree ID="send_goal">
+            <Sequence>
+                <ReactiveSequence>
+                    <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                    <SubScanDistanceActionBTNode topic_name="/scan"
+                    scan_msg="{scan_msg}"/>
+                </ReactiveSequence>
+                    <ReactiveFallback>
+                        <ForceSuccess>
+                            <Sequence>
+                                <SendGoalActionBTNode goal_pose="{goal_pose}" />
+                                <GoalReachedActionAs goal_pose="{goal_pose}"
+                                current_location="{current_location}"/>
+                            </Sequence>
+                        </ForceSuccess>
+                    </ReactiveFallback>
+            </Sequence>
+        </BehaviorTree>
+</root>

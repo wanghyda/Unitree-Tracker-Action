@@ -1,0 +1,1 @@
+/home/unitree/navigation_ws/build/rm_autonomy_interfaces/rosidl_generator_cpp/rm_autonomy_interfaces/msg/detail/enemy_robot_mark__traits.hpp

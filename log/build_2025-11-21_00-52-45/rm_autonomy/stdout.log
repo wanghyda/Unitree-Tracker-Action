@@ -1,0 +1,7 @@
+[ 16%] Built target polygon
+[ 33%] Built target occupancy_grid_wrapper
+[ 50%] Built target sentry_autonomy_node
+[ 66%] Built target get_current_location_action_bt_node
+[ 83%] Built target send_goal_action_bt_node
+[35m[1mScanning dependencies of target pub_chasing_position_btnode_action[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/pub_chasing_position_btnode_action.dir/plugins/action/pub_chasing_position_btnode_action.cpp.o[0m

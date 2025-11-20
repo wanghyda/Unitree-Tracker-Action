@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="BehaviorTree">
+  <BehaviorTree ID="BehaviorTree">
+    <ReactiveSequence>
+        <Sequence>
+            <SubSelfStateActionBTNode topic_name="/self_state"
+                                        self_state="{self_state}"/>
+            <SubGameStatusActionBTNode topic_name="/game_status"
+                                        game_status="{game_status}"/>
+            <SubArenaStatusActionBTNode topic_name="/arena_status"
+                                        arena_status="{arena_status}"/>
+            <GetCurrentLocationActionBTNode current_location="{current_location}" />
+            <SubGimbalYawActionBTNode topic_name="/gimbal2_yaw"
+            gimbal2_yaw="{gimbal2_yaw}" />       
+         </Sequence>
+            <Sequence>
+                
+            </Sequence>
+    </ReactiveSequence>
+  </BehaviorTree>
+</root>

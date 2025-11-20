@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" project_name="Project">
+    <include path="rm_autonomy/bt_xml/rmul_2024.xml"/>
+    <!-- Description of Node Models (used by Groot) -->
+    <TreeNodesModel>
+        <Action ID="EnemyAutoaimDetectedCondition" editable="true">
+            <input_port name="autoaim_communication" default="{autoaim_communication}"/>
+            <input_port name="current_location" default="{current_location}"/>
+            <input_port name="gimbal2_yaw" default="{gimbal2_yaw}"/>
+            <output_port name="enemy_pose" default="{enemy_pose}"/>
+        </Action>
+        <Action ID="GetCurrentLocationActionBTNode" editable="true">
+            <output_port name="current_location" default="{current_location}"/>
+        </Action>
+        <Action ID="IsBaseAttackedCondition" editable="true">
+            <input_port name="message" default="{arena_status}"/>
+        </Action>
+        <Action ID="IsGameStartCondition" editable="true">
+            <input_port name="message" default="{game_status}"/>
+        </Action>
+        <Action ID="IsRmulHealingAvailableCondition" editable="true">
+            <input_port name="message" default="{arena_status}"/>
+        </Action>
+        <Action ID="IsSelfHPLowCondition" editable="true">
+            <input_port name="message" default="{self_state}"/>
+            <input_port name="hp_threshold" default="200"/>
+        </Action>
+        <Action ID="PubNavigateCommandActionBTNode" editable="true">
+            <input_port name="navigate_command" default="0;0"/>
+        </Action>
+        <Condition ID="RemainGameTimeCondition" editable="true">
+            <input_port name="message"/>
+            <input_port name="time_threshold"/>
+        </Condition>
+        <Action ID="SendGoalActionBTNode" editable="true">
+            <input_port name="goal_pose" default="0;0;0; 0;0;0;1"/>
+        </Action>
+        <Action ID="SubArenaStatusActionBTNode" editable="true">
+            <input_port name="topic_name" default="/arena_status"/>
+            <output_port name="arena_status" default="{arena_status}"/>
+        </Action>
+        <Action ID="SubGameStatusActionBTNode" editable="true">
+            <input_port name="topic_name" default="/game_status"/>
+            <output_port name="game_status" default="{game_status}"/>
+        </Action>
+        <Action ID="SubGimbalYawActionBTNode" editable="true">
+            <input_port name="topic_name" default="/gimbal_yaw"/>
+            <output_port name="gimbal_yaw" default="{gimbal_yaw}"/>
+        </Action>
+        <Action ID="SubSelfStateActionBTNode" editable="true">
+            <input_port name="topic_name" default="/self_state"/>
+            <output_port name="self_state" default="{self_state}"/>
+        </Action>
+    </TreeNodesModel>
+</root>

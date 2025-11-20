@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4"
+      main_tree_to_execute="BehaviorTree">
+  <BehaviorTree ID="BehaviorTree">
+    <Sequence>
+      <Sequence>
+        <!-- <SubSelfStateActionBTNode topic_name="/self_state" self_state="{self_state}"/>
+        <SubGameStatusActionBTNode topic_name="/game_status" game_status="{game_status}"/>
+        <SubArenaStatusActionBTNode topic_name="/arena_status" arena_status="{arena_status}"/>
+        <SubAllRobotHPActionBTNode topic_name="/all_robot_hp" all_robot_hp="{all_robot_hp}"/> -->
+        <!-- <SubAllyRobotPositionActionBTNode topic_name="/ally_robot_position" ally_robot_position="{ally_robot_position}"/> -->
+        <!-- <GetCurrentLocationActionBTNode current_location="{current_location}"/> -->
+        <!-- <SubRadarEnemyPositionActionBTNode topic_name="/radar_enemy_position" radar_enemy_position="{radar_enemy_position}"/> -->
+        <!-- <SubGimbalYawActionBTNode topic_name="/gimbal2_yaw" gimbal2_yaw="{gimbal2_yaw}"/> -->
+        <!-- <SubAutoaimCommunicationActionBTNode topic_name="/autoaim_communication" current_location="{current_location}" gimbal2_yaw="{gimbal2_yaw}" enemy_autoaim_position="{enemy_autoaim_position}" enemy_autoaim_id="{enemy_autoaim_id}"/> -->
+        <SubHumanInterventionActionBTNode topic_name="/human_intervention" human_intervention="{human_intervention}" human_intervention_pose="{human_intervention_pose}"/>
+
+      </Sequence>
+      <IfThenElse>
+        <IsHumanInterventedCondition human_intervention="{human_intervention}"/>
+        <Sequence>
+          <PubNavigateCommandActionBTNode spin_speed="1.0" scap_state="0"/>
+          <SendGoalActionBTNode goal_pose="{human_intervention_pose}"/>
+        </Sequence>
+        <Sequence>
+          <TwoPositionPatrolActionBTNode goal_pose_1="0.0;0.0;0;0;0;0;1" goal_pose_2="2.0;0.0;0;0;0;0;1"/>
+          <PubNavigateCommandActionBTNode spin_speed="-1" scap_state="0"/>
+          <!-- <PubRadarTargetActionBTNode enemy_autoaim_id="{enemy_autoaim_id}" enemy_autoaim_position="{enemy_autoaim_position}"/> -->
+        </Sequence>
+      </IfThenElse>
+    </Sequence>
+  </BehaviorTree>
+
+  <!-- Description of Node Models (used by Groot) -->
+  <TreeNodesModel>
+    <Action ID="ChaseActionBTNode"
+            editable="true">
+      <input_port name="current_location"
+                  default="{current_location}"/>
+      <input_port name="enemy_autoaim_position"
+                  default="{enemy_autoaim_position}"/>
+    </Action>
+    <Condition ID="EnemyAutoaimDetectedCondition"
+               editable="true">
+      <input_port name="enemy_autoaim_position"
+                  default="{enemy_autoaim_position}"/>
+    </Condition>
+    <Action ID="GetCurrentLocationActionBTNode"
+            editable="true">
+      <output_port name="current_location"
+                   default="{current_location}"/>
+    </Action>
+    <Condition ID="IsDeadOnceCondition"
+               editable="true">
+      <input_port name="self_state"
+                  default="{self_state}"/>
+      <input_port name="game_status"
+                  default="{game_status}"/>
+    </Condition>
+    <Condition ID="IsEnemyOutpostDeadCondition"
+               editable="true">
+      <input_port name="all_robot_hp"
+                  default="{all_robot_hp}"/>
+      <input_port name="self_state"
+                  default="{self_state}"/>
+    </Condition>
+    <Condition ID="IsGameStartCondition"
+               editable="true">
+      <input_port name="message"
+                  default="{game_status}"/>
+    </Condition>
+    <Condition ID="IsOutpostHPLowCondition"
+               editable="true">
+      <input_port name="hp_message"
+                  default="{all_robot_hp}"/>
+      <input_port name="hp_threshold"
+                  default="750"/>
+      <input_port name="self_state"
+                  default="{self_state}"/>
+    </Condition>
+    <Condition ID="IsSelfHPLowCondition"
+               editable="true">
+      <input_port name="message"
+                  default="{self_state}"/>
+      <input_port name="hp_threshold"
+                  default="200"/>
+    </Condition>
+    <Action ID="PubNavigateCommandActionBTNode"
+            editable="true">
+      <input_port name="spin_speed"
+                  default="0"/>
+      <input_port name="scap_state"
+                  default="0"/>
+    </Action>
+    <Action ID="PubRadarTargetActionBTNode"
+            editable="true">
+      <input_port name="enemy_autoaim_position"
+                  default="{enemy_autoaim_position}"/>
+      <input_port name="enemy_autoaim_id"
+                  default="{enemy_autoaim_id}"/>
+    </Action>
+    <Condition ID="RemainGameTimeCondition"
+               editable="true">
+      <input_port name="message"/>
+      <input_port name="time_threshold"
+                  default="0"/>
+    </Condition>
+    <Action ID="SendGoalActionBTNode"
+            editable="true">
+      <input_port name="goal_pose"
+                  default="0;0;0; 0;0;0;1"/>
+    </Action>
+    <Action ID="SubAllRobotHPActionBTNode"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/all_robot_hp"/>
+      <output_port name="all_robot_hp"
+                   default="{all_robot_hp}"/>
+    </Action>
+    <Action ID="SubAllyRobotPositionActionBTNode"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/ally_robot_position"/>
+      <output_port name="ally_robot_position"
+                   default="{ally_robot_position}"/>
+    </Action>
+    <Action ID="SubArenaStatusActionBTNode"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/arena_status"/>
+      <output_port name="arena_status"
+                   default="{arena_status}"/>
+    </Action>
+    <Action ID="SubAutoaimCommunicationActionBTNode"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/autoaim_communication"/>
+      <input_port name="current_location"
+                  default="{current_location}"/>
+      <input_port name="gimbal2_yaw"
+                  default="{gimbal2_yaw}"/>
+      <output_port name="enemy_autoaim_position"
+                   default="{enemy_autoaim_position}"/>
+      <output_port name="enemy_autoaim_id"
+                   default="{enemy_autoaim_id}"/>
+    </Action>
+    <Action ID="SubGameStatusActionBTNode"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/game_status"/>
+      <output_port name="game_status"
+                   default="{game_status}"/>
+    </Action>
+    <Action ID="SubGimbalYawActionBTNode"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/gimbal2_yaw"/>
+      <output_port name="gimbal2_yaw"
+                   default="{gimbal2_yaw}"/>
+    </Action>
+    <Action ID="SubSelfStateActionBTNode"
+            editable="true">
+      <input_port name="topic_name"
+                  default="/self_state"/>
+      <output_port name="self_state"
+                   default="{self_state}"/>
+    </Action>
+    <Action ID="TwoPositionPatrolActionBTNode"
+            editable="true">
+      <input_port name="goal_pose_1"
+                  default="0;0;0;0;0;0;1"/>
+      <input_port name="goal_pose_2"
+                  default="0;0;0;0;0;0;1"/>
+    </Action>
+    <Action ID="IsHumanInterventedCondition" editable="true">
+      <input_port name="topic_name" default="human_intervention"/>
+      <output_port name="human_intervention" default="human_intervention"/>
+      <output_port name="human_intervention_pose" default="human_intervention_pose"/>
+    </Action>
+    <Action ID="SubHumanInterventionActionBTNode" editable="true">
+      <input_port name="human_intervention" default="{human_intervention}"/>
+    </Action>
+  </TreeNodesModel>
+
+</root>

@@ -1,0 +1,4 @@
+Invoking command in '/home/unitree/navigation_ws/build/behaviortree_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/behaviortree_cpp -- -j8 -l8
+Invoked command in '/home/unitree/navigation_ws/build/behaviortree_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/unitree/navigation_ws/build/behaviortree_cpp -- -j8 -l8
+Invoking command in '/home/unitree/navigation_ws/build/behaviortree_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/behaviortree_cpp
+Invoked command in '/home/unitree/navigation_ws/build/behaviortree_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/unitree/navigation_ws/build/behaviortree_cpp

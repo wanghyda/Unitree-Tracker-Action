@@ -1,0 +1,6 @@
+[0.124s] Invoking command in '/home/unitree/navigation_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/unitree/navigation_ws/src/reconstruction/linefit_ground_segmentation_ros2/linefit_ground_segmentation -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/unitree/navigation_ws/install/linefit_ground_segmentation
+[0.318s] -- The C compiler identification is GNU 9.4.0
+[0.466s] -- The CXX compiler identification is GNU 9.4.0
+[0.478s] -- Check for working C compiler: /usr/bin/cc
+[0.681s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.691s] -- Detecting C compiler ABI info

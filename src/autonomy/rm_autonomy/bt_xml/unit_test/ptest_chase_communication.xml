@@ -1,0 +1,13 @@
+<root BTCPP_format="4"
+    main_tree_to_execute="BehaviorTree">
+    <BehaviorTree ID="BehaviorTree">
+        <Sequence>
+            <Sequence name="sub info">
+                <SubChaseControlActionBTNode topic_name="/chase_control"
+                    chase_control="{chase_control}" />
+                <!-- <PubChasingActionBTNode message="1" />
+                <PubGimbalPitchActionBTNode message="1" /> -->
+            </Sequence>
+        </Sequence>
+    </BehaviorTree>
+</root>

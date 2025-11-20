@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4" main_tree_to_execute="BehaviorTree">
+    <BehaviorTree ID="BehaviorTree">
+        <Sequence>
+        <!-- <IfThenElse>
+            <UnderAttackCondition message="{self_state}" />
+             <PubNavigateCommandActionBTNode spin_speed="6.5"
+                scap_state="1" />
+            <PubNavigateCommandActionBTNode spin_speed="0.9"
+                scap_state="0" />
+        </IfThenElse>  -->
+            <Sequence>
+                <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                <SubScanDistanceActionBTNode topic_name="/scan"
+                scan_msg="{scan_msg}"/>
+                <!-- <SubRelocationPoseActionBTNode 
+            topic_name="/pcl_pose"
+            relocation_pose="{relocation_pose}"/>
+                <PubRelocatePoseActionBTNode 
+            current_location="{current_location}"
+            relocation_pose="{relocation_pose}"/> -->
+            </Sequence>
+                    <ReactiveSequence>
+                    <PubNavigateCommandActionBTNode spin_speed="0.9"
+                scap_state="0" />
+                     <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                        <SendGoalActionBTNode goal_pose="{patrol_center}" />
+                        <GoalReachedActionAs current_location="{current_location}"
+                        goal_pose="{patrol_center}"/>
+                    </ReactiveSequence>
+                    <!-- <ReactiveSequence>
+                     <GetCurrentLocationActionBTNode current_location="{current_location}" />
+                        <SendGoalActionBTNode goal_pose="{home}" />
+                        <GoalReachedActionAs current_location="{current_location}"
+                        goal_pose="{home}"/>
+                    </ReactiveSequence> -->
+        </Sequence>
+    </BehaviorTree>
+</root>
